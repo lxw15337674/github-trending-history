@@ -67,8 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 敬请期待
+**最后更新**: 2025-12-17 | **成功**: 0 | **失败**: 11
 
+| # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
+|---|------|------|------|-------|----------|---------|
+| 1 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 12.0k | 645 | 处理失败... |
+| 2 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 15.8k | 365 | 处理失败... |
+| 3 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 43.4k | 252 | 处理失败... |
+| 4 | [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent ... | TypeScript | 23.5k | 915 | 处理失败... |
+| 5 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels... | Python | 8.6k | 870 | 处理失败... |
+| 6 | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 所有小初高、大学PDF教材。... | Roff | 62.9k | 579 | 处理失败... |
+| 7 | [0xk1h0/ChatGPT_DAN](https://github.com/0xk1h0/ChatGPT_DAN) | ChatGPT DAN, Jailbreaks prompt... | - | 10.4k | 159 | 处理失败... |
+| 8 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 386.0k | 512 | 处理失败... |
+| 9 | [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top o... | TypeScript | 3.2k | 470 | 处理失败... |
+| 10 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | Jellyfin Desktop Client... | C++ | 4.9k | 166 | 处理失败... |
+| 11 | [NVIDIA-NeMo/Gym](https://github.com/NVIDIA-NeMo/Gym) | Build RL environments for LLM training... | Python | 245 | 21 | 处理失败... |
+
+[查看完整数据](api/github/2025-12-17.json)
 <!-- END GITHUB TRENDING -->
 
 

@@ -1,0 +1,135 @@
+{
+  "date": "2025-12-17",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 0,
+  "failedCount": 11,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "C4illin/ConvertX",
+      "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+      "language": "TypeScript",
+      "stars": 11996,
+      "forks": 598,
+      "todayStars": 645,
+      "url": "https://github.com/C4illin/ConvertX",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 1,
+      "fullName": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "language": "Python",
+      "stars": 15773,
+      "forks": 2204,
+      "todayStars": 365,
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 2,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 43362,
+      "forks": 7687,
+      "todayStars": 252,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 3,
+      "fullName": "simstudioai/sim",
+      "description": "Open-source platform to build and deploy AI agent workflows.",
+      "language": "TypeScript",
+      "stars": 23463,
+      "forks": 2923,
+      "todayStars": 915,
+      "url": "https://github.com/simstudioai/sim",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 4,
+      "fullName": "Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 8582,
+      "forks": 1529,
+      "todayStars": 870,
+      "url": "https://github.com/Free-TV/IPTV",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 5,
+      "fullName": "TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars": 62856,
+      "forks": 13936,
+      "todayStars": 579,
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 6,
+      "fullName": "0xk1h0/ChatGPT_DAN",
+      "description": "ChatGPT DAN, Jailbreaks prompt",
+      "language": "",
+      "stars": 10421,
+      "forks": 966,
+      "todayStars": 159,
+      "url": "https://github.com/0xk1h0/ChatGPT_DAN",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 7,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 386026,
+      "forks": 41207,
+      "todayStars": 512,
+      "url": "https://github.com/public-apis/public-apis",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 8,
+      "fullName": "nicotsx/zerobyte",
+      "description": "Backup automation for self-hosters. Built on top of restic",
+      "language": "TypeScript",
+      "stars": 3201,
+      "forks": 65,
+      "todayStars": 470,
+      "url": "https://github.com/nicotsx/zerobyte",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 9,
+      "fullName": "jellyfin/jellyfin-desktop",
+      "description": "Jellyfin Desktop Client",
+      "language": "C++",
+      "stars": 4872,
+      "forks": 448,
+      "todayStars": 166,
+      "url": "https://github.com/jellyfin/jellyfin-desktop",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 10,
+      "fullName": "NVIDIA-NeMo/Gym",
+      "description": "Build RL environments for LLM training",
+      "language": "Python",
+      "stars": 245,
+      "forks": 20,
+      "todayStars": 21,
+      "url": "https://github.com/NVIDIA-NeMo/Gym",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-17T23:25:49.950Z",
+    "duration": "82s",
+    "version": "1.0.0"
+  }
+}
