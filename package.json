@@ -1,0 +1,27 @@
+{
+  "name": "github-trending-history",
+  "version": "1.0.0",
+  "main": "github-trending.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite-node ./github-trending.ts",
+    "dev": "serve ."
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@types/jsdom": "^27.0.0",
+    "axios": "^1.12.2",
+    "cheerio": "1.0.0-rc.12",
+    "dayjs": "^1.11.11",
+    "jsdom": "^27.3.0",
+    "lodash": "^4.17.21",
+    "vite-node": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/lodash": "^4.17.4",
+    "serve": "^11.3.2",
+    "typescript": "^5.4.5"
+  },
+  "type": "module"
+}
