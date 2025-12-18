@@ -1,0 +1,80 @@
+{
+  "date": "2025-12-18",
+  "since": "daily",
+  "totalRepos": 6,
+  "successCount": 0,
+  "failedCount": 6,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 46674,
+      "forks": 3272,
+      "todayStars": 187,
+      "url": "https://github.com/anthropics/claude-code",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 1,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 43594,
+      "forks": 7720,
+      "todayStars": 257,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 2,
+      "fullName": "astral-sh/ty",
+      "description": "An extremely fast Python type checker and language server, written in Rust.",
+      "language": "Python",
+      "stars": 14797,
+      "forks": 152,
+      "todayStars": 250,
+      "url": "https://github.com/astral-sh/ty",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 3,
+      "fullName": "letta-ai/letta",
+      "description": "Letta is the platform for building stateful agents: open AI with advanced memory that can learn and self-improve over time.",
+      "language": "Python",
+      "stars": 19845,
+      "forks": 2083,
+      "todayStars": 102,
+      "url": "https://github.com/letta-ai/letta",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 4,
+      "fullName": "schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars": 32882,
+      "forks": 1293,
+      "todayStars": 130,
+      "url": "https://github.com/schollz/croc",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    },
+    {
+      "index": 5,
+      "fullName": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "language": "Python",
+      "stars": 16208,
+      "forks": 2222,
+      "todayStars": 457,
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "errorMessage": "Cloudflare AI 返回格式错误"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-18T23:25:17.068Z",
+    "duration": "48s",
+    "version": "1.0.0"
+  }
+}

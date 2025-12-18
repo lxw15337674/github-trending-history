@@ -67,23 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-17 | **成功**: 0 | **失败**: 11
+**最后更新**: 2025-12-18 | **成功**: 0 | **失败**: 6
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 12.0k | 645 | 处理失败... |
-| 2 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 15.8k | 365 | 处理失败... |
-| 3 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 43.4k | 252 | 处理失败... |
-| 4 | [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent ... | TypeScript | 23.5k | 915 | 处理失败... |
-| 5 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels... | Python | 8.6k | 870 | 处理失败... |
-| 6 | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 所有小初高、大学PDF教材。... | Roff | 62.9k | 579 | 处理失败... |
-| 7 | [0xk1h0/ChatGPT_DAN](https://github.com/0xk1h0/ChatGPT_DAN) | ChatGPT DAN, Jailbreaks prompt... | - | 10.4k | 159 | 处理失败... |
-| 8 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 386.0k | 512 | 处理失败... |
-| 9 | [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte) | Backup automation for self-hosters. Built on top o... | TypeScript | 3.2k | 470 | 处理失败... |
-| 10 | [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop) | Jellyfin Desktop Client... | C++ | 4.9k | 166 | 处理失败... |
-| 11 | [NVIDIA-NeMo/Gym](https://github.com/NVIDIA-NeMo/Gym) | Build RL environments for LLM training... | Python | 245 | 21 | 处理失败... |
+| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 46.7k | 187 | 处理失败... |
+| 2 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 43.6k | 257 | 处理失败... |
+| 3 | [astral-sh/ty](https://github.com/astral-sh/ty) | An extremely fast Python type checker and language... | Python | 14.8k | 250 | 处理失败... |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents... | Python | 19.8k | 102 | 处理失败... |
+| 5 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer ... | Go | 32.9k | 130 | 处理失败... |
+| 6 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 16.2k | 457 | 处理失败... |
 
-[查看完整数据](api/github/2025-12-17.json)
+[查看完整数据](api/github/2025-12-18.json)
 <!-- END GITHUB TRENDING -->
 
 
