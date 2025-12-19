@@ -11,7 +11,7 @@
 2. **README 提取**: 使用 @mozilla/readability 提取每个项目的 README 内容
 3. **AI 总结**: 使用 Cloudflare Workers AI 生成项目核心功能总结、技术栈和适用场景
 4. **数据归档**: 将数据按日期归档到 `api/github/` 目录
-5. **数据可视化**: [在线查看](https://github-trending-hot-history.vercel.app/)每日 GitHub Trending 数据
+5. **数据可视化**: [在线查看](https://github-trending-history.vercel.app/)每日 GitHub Trending 数据
 
 ## 数据结构
 
