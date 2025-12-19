@@ -72,10 +72,12 @@ export default function RootLayout({
     <html lang="zh-CN" suppressHydrationWarning>
       <head>
         <link rel="canonical" href={process.env.NEXT_PUBLIC_BASE_URL || 'https://github-trending-history.vercel.app'} />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="GitHub Trending" />
         <meta name="format-detection" content="telephone=no" />
 
         {/* 结构化数据 */}
