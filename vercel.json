@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd docs && pnpm build",
+  "buildCommand": "cd ./docs && pnpm build",
   "outputDirectory": "docs/.next",
-  "installCommand": "cd docs && pnpm install"
+  "installCommand": "cd ./docs && pnpm install"
 }
