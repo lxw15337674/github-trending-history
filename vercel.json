@@ -1,6 +1,4 @@
 {
   "buildCommand": "cd docs && pnpm build",
-  "outputDirectory": "docs/.next",
-  "framework": "nextjs",
-  "installCommand": "corepack enable && corepack prepare pnpm@latest --activate && cd docs && pnpm install"
+  "outputDirectory": "docs/.next"
 }
