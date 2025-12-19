@@ -1,126 +1,205 @@
 {
   "date": "2025-12-19",
   "since": "daily",
-  "totalRepos": 6,
-  "successCount": 6,
+  "totalRepos": 10,
+  "successCount": 10,
   "failedCount": 0,
   "repos": [
     {
       "index": 0,
-      "fullName": "anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Shell",
-      "stars": 46864,
-      "forks": 3287,
-      "todayStars": 178,
-      "url": "https://github.com/anthropics/claude-code",
+      "fullName": "jaywcjlove/awesome-mac",
+      "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+      "language": "JavaScript",
+      "stars": 96312,
+      "forks": 7234,
+      "todayStars": 136,
+      "url": "https://github.com/jaywcjlove/awesome-mac",
       "aiSummary": {
-        "summary": "Claude Code是一款终端级智能编程工具，通过自然语言指令实现代码解释、自动化任务执行和Git流程管理，支持多平台安装并提供插件扩展功能。",
+        "summary": "整理各类 macOS 精品软件的开源列表，涵盖开发工具、设计软件、生产力应用等多领域，提供分类导航与资源链接，便于用户发现和管理 Mac 应用。",
         "techStack": [
-          "Shell",
-          "Node.js",
-          "Git"
+          "JavaScript",
+          "Markdown",
+          "HTML/CSS"
         ],
-        "useCase": "开发人员通过自然语言交互提升代码编写与维护效率"
+        "useCase": "Mac 用户查找、整理和推荐优质软件工具"
       }
     },
     {
       "index": 1,
-      "fullName": "virattt/ai-hedge-fund",
-      "description": "An AI Hedge Fund Team",
-      "language": "Python",
-      "stars": 43707,
-      "forks": 7734,
-      "todayStars": 256,
-      "url": "https://github.com/virattt/ai-hedge-fund",
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 47132,
+      "forks": 3309,
+      "todayStars": 511,
+      "url": "https://github.com/anthropics/claude-code",
       "aiSummary": {
-        "summary": "该项目是一个AI驱动的对冲基金模拟系统，整合了15种经典投资策略，通过多代理协作实现量化交易信号生成与风险管理，包含基本面分析、技术面分析、情绪分析和组合管理模块，旨在用于教育研究而非实际交易。",
+        "summary": "Claude Code是一款终端级AI编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理Git流程。支持多平台安装，提供插件扩展功能，注重数据隐私保护。",
         "techStack": [
-          "Python",
-          "机器学习",
-          "数据分析"
+          "Shell",
+          "Node.js",
+          "CLI"
         ],
-        "useCase": "金融教育与量化策略研究模拟"
+        "useCase": "开发者通过自然语言指令提升代码编写与项目管理效率"
       }
     },
     {
       "index": 2,
-      "fullName": "astral-sh/ty",
-      "description": "An extremely fast Python type checker and language server, written in Rust.",
+      "fullName": "NVIDIA-NeMo/Gym",
+      "description": "Build RL environments for LLM training",
       "language": "Python",
-      "stars": 14953,
-      "forks": 157,
-      "todayStars": 251,
-      "url": "https://github.com/astral-sh/ty",
+      "stars": 447,
+      "forks": 30,
+      "todayStars": 26,
+      "url": "https://github.com/NVIDIA-NeMo/Gym",
       "aiSummary": {
-        "summary": "ty 是一个用 Rust 编写的高性能 Python 类型检查器和语言服务器，提供比 MyPy 和 Pyright 快 10-100 倍的类型检查速度，支持增量分析、高级类型特性及多编辑器集成。",
+        "summary": "NVIDIA NeMo Gym 是用于构建大语言模型强化学习训练环境的库，提供环境开发框架、大规模数据收集支持及与主流训练框架的集成，简化RL环境开发流程并支持独立测试验证。",
         "techStack": [
-          "Rust",
           "Python",
-          "Language Server Protocol"
+          "Reinforcement Learning",
+          "NeMo Framework"
         ],
-        "useCase": "适用于需要快速类型检查和智能代码分析的 Python 项目开发，尤其适合大型代码库和 IDE 集成。"
+        "useCase": "适用于需要定制化LLM训练环境的强化学习研究与开发场景"
       }
     },
     {
       "index": 3,
-      "fullName": "letta-ai/letta",
-      "description": "Letta is the platform for building stateful agents: open AI with advanced memory that can learn and self-improve over time.",
+      "fullName": "GreyDGL/PentestGPT",
+      "description": "A GPT-empowered penetration testing tool",
       "language": "Python",
-      "stars": 19967,
-      "forks": 2091,
-      "todayStars": 102,
-      "url": "https://github.com/letta-ai/letta",
+      "stars": 9592,
+      "forks": 1403,
+      "todayStars": 26,
+      "url": "https://github.com/GreyDGL/PentestGPT",
       "aiSummary": {
-        "summary": "Letta是一个用于构建有状态AI代理的开源平台，支持多模型提供商和高级内存管理，实现代理的持续学习与自我优化。提供Python/TypeScript SDK、API文档及开发示例，适用于需要持久化记忆和动态适应的智能系统开发。",
+        "summary": "PentestGPT是一款基于GPT的渗透测试工具，结合生成式AI进行自动化漏洞检测与攻击模拟，支持Web、加密、逆向等多种场景，提供实时反馈和可扩展架构，适用于渗透测试及CTF竞赛。",
         "techStack": [
           "Python",
-          "TypeScript",
-          "REST API"
+          "Docker",
+          "LLM"
         ],
-        "useCase": "开发具备持续学习和记忆功能的智能AI代理系统"
+        "useCase": "用于渗透测试和CTF竞赛中的AI辅助漏洞检测与攻击模拟。"
       }
     },
     {
       "index": 4,
-      "fullName": "schollz/croc",
-      "description": "Easily and securely send things from one computer to another 🐊 📦",
-      "language": "Go",
-      "stars": 33135,
-      "forks": 1303,
-      "todayStars": 130,
-      "url": "https://github.com/schollz/croc",
+      "fullName": "exo-explore/exo",
+      "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
+      "language": "Python",
+      "stars": 33619,
+      "forks": 2285,
+      "todayStars": 437,
+      "url": "https://github.com/exo-explore/exo",
       "aiSummary": {
-        "summary": "croc是用Go语言编写的跨平台文件传输工具，支持Windows、Linux和Mac。提供端到端加密（PAKE协议），无需本地服务器或端口转发，支持多文件传输、断点续传，采用IPv6优先架构，适用于安全便捷的设备间数据传输。",
+        "summary": "exo项目通过整合日常设备构建AI集群，支持自动设备发现、RDMA低延迟通信和模型张量并行，提升分布式计算效率。基于MLX框架实现跨设备资源池化，适用于家庭或小型团队部署大规模AI模型。",
         "techStack": [
-          "Go"
+          "Python",
+          "MLX",
+          "Node.js"
         ],
-        "useCase": "跨平台设备间安全快速传输文件，尤其适合无需复杂网络配置的场景"
+        "useCase": "家庭或实验室环境下的低成本AI模型分布式训练与推理"
       }
     },
     {
       "index": 5,
-      "fullName": "resemble-ai/chatterbox",
-      "description": "SoTA open-source TTS",
+      "fullName": "swisskyrepo/PayloadsAllTheThings",
+      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
       "language": "Python",
-      "stars": 16348,
-      "forks": 2234,
-      "todayStars": 477,
-      "url": "https://github.com/resemble-ai/chatterbox",
+      "stars": 72580,
+      "forks": 16348,
+      "todayStars": 32,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
       "aiSummary": {
-        "summary": "Chatterbox是Resemble AI开发的开源文本转语音（TTS）模型家族，包含350M参数的Turbo版、多语言版及通用版。支持零样本语音克隆、情感标签（如[laugh]）和多语言输出，优化了计算效率与生成速度，适用于语音助手、多语言应用及创意内容生成。",
+        "summary": "该项目是一个面向Web应用安全和渗透测试的Payload集合，包含多种漏洞利用技巧与绕过方法，支持Burp Intruder等工具，提供详细文档和贡献指南，适用于CTF竞赛与安全测试场景。",
         "techStack": [
           "Python",
-          "深度学习框架",
-          "语音处理"
+          "Burp Intruder",
+          "Nuclei"
         ],
-        "useCase": "低延迟高音质的语音助手、多语言内容生成及创意音频合成"
+        "useCase": "渗透测试与CTF竞赛中的漏洞利用及绕过测试"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "sgl-project/mini-sglang",
+      "description": "",
+      "language": "Python",
+      "stars": 1445,
+      "forks": 102,
+      "todayStars": 501,
+      "url": "https://github.com/sgl-project/mini-sglang",
+      "aiSummary": {
+        "summary": "Mini-SGLang 是一个轻量级高性能的LLM推理框架，通过Radix Cache、Chunked Prefill等优化技术实现低延迟高吞吐，支持多GPU张量并行和FlashAttention加速，代码简洁易读且具备OpenAI API兼容性。",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "Tensor Parallelism",
+          "FlashAttention"
+        ],
+        "useCase": "适用于需要高效部署和研究大语言模型推理服务的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "google/adk-js",
+      "description": "An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "language": "TypeScript",
+      "stars": 376,
+      "forks": 29,
+      "todayStars": 46,
+      "url": "https://github.com/google/adk-js",
+      "aiSummary": {
+        "summary": "google/adk-js是基于TypeScript的AI代理开发工具包，支持代码优先的开发方式，提供与Google Cloud的深度集成，具备工具生态、模块化架构和灵活部署能力，适用于复杂AI代理的构建与管理。",
+        "techStack": [
+          "TypeScript",
+          "Google Cloud",
+          "OpenAPI"
+        ],
+        "useCase": "开发需要与Google Cloud深度集成的复杂AI代理应用"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "afshinea/stanford-cs-229-machine-learning",
+      "description": "VIP cheatsheets for Stanford's CS 229 Machine Learning",
+      "language": "",
+      "stars": 19000,
+      "forks": 4138,
+      "todayStars": 103,
+      "url": "https://github.com/afshinea/stanford-cs-229-machine-learning",
+      "aiSummary": {
+        "summary": "该项目为斯坦福CS229机器学习课程提供整理的复习资料和速查表，包含课程核心概念、相关知识点回顾及模型训练技巧，帮助学习者系统化掌握机器学习知识体系。",
+        "techStack": [
+          "Markdown",
+          "Python",
+          "Jupyter Notebook"
+        ],
+        "useCase": "适用于机器学习学习者和从业者快速复习课程重点及实践技巧"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "metabase/metabase",
+      "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data 📊",
+      "language": "Clojure",
+      "stars": 45135,
+      "forks": 6095,
+      "todayStars": 79,
+      "url": "https://github.com/metabase/metabase",
+      "aiSummary": {
+        "summary": "Metabase是一款开源商业智能工具，允许用户无需SQL即可分析数据，支持复杂查询、交互式仪表板、数据模型构建及团队协作。提供可视化分析、数据订阅、实时警报和嵌入式分析功能，适用于企业数据可视化与决策支持。",
+        "techStack": [
+          "Clojure",
+          "JavaScript",
+          "React"
+        ],
+        "useCase": "企业级数据可视化、团队协作分析及嵌入式商业智能场景"
       }
     }
   ],
   "metadata": {
-    "createdAt": "2025-12-19T07:46:58.984Z",
-    "duration": "49s",
+    "createdAt": "2025-12-19T23:25:04.637Z",
+    "duration": "80s",
     "version": "1.0.0"
   }
 }
