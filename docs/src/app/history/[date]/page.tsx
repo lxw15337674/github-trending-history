@@ -202,34 +202,37 @@ export default async function Hots(props: HotsProps) {
             return (
               <Card key={repo.fullName} className="hover:bg-muted/30 transition-colors">
                 <CardHeader>
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1 min-w-0">
-                      <CardTitle className="text-xl mb-2">
-                        <a
-                          href={repo.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="hover:underline"
-                        >
-                          {repo.fullName}
-                        </a>
-                      </CardTitle>
-                      <CardDescription className="text-base">
-                        {repo.description || "无描述"}
-                      </CardDescription>
-                    </div>
-                    {repo.language && (
-                      <Badge variant="secondary" className="flex-shrink-0">
-                        {repo.language}
+                  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 md:gap-4 mb-2">
+                    <CardTitle className="text-xl">
+                      <a
+                        href={repo.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        {repo.fullName}
+                      </a>
+                    </CardTitle>
+                    <div className="flex flex-wrap gap-2 md:flex-shrink-0 items-start">
+                      <Badge variant="secondary" className="text-xs">
+                        ⭐ {repo.stars.toLocaleString()}
                       </Badge>
-                    )}
+                      <Badge variant="secondary" className="text-xs">
+                        🍴 {repo.forks.toLocaleString()}
+                      </Badge>
+                      <Badge variant="outline" className="text-xs font-medium text-orange-600 dark:text-orange-400 border-orange-300 dark:border-orange-700">
+                        📈 +{repo.todayStars.toLocaleString()}
+                      </Badge>
+                      {repo.language && (
+                        <Badge variant="default" className="text-xs">
+                          {repo.language}
+                        </Badge>
+                      )}
+                    </div>
                   </div>
-
-                  <div className="flex gap-4 mt-3 text-sm text-muted-foreground flex-wrap">
-                    <span>⭐ {repo.stars.toLocaleString()}</span>
-                    <span>🍴 {repo.forks.toLocaleString()}</span>
-                    <span>📈 今日 +{repo.todayStars.toLocaleString()}</span>
-                  </div>
+                  <CardDescription className="text-base">
+                    {repo.description || "无描述"}
+                  </CardDescription>
                 </CardHeader>
 
                 {repo.aiSummary && !repo.errorMessage && (
