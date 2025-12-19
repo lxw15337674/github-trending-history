@@ -37,21 +37,21 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'website',
       locale: 'zh_CN',
       url: baseUrl,
-      title: 'GitHub Trending 历史归档 - 每日热门开源项目记录',
+      title: 'GitHub Trending 归档 - 每日热门开源项目记录',
       description: '每日 GitHub Trending 开源项目归档，追踪最热门的开源项目和技术趋势。',
-      siteName: 'GitHub Trending 历史归档',
+      siteName: 'GitHub Trending 归档',
       images: [
         {
           url: `${baseUrl}/og-image.png`,
           width: 1200,
           height: 630,
-          alt: 'GitHub Trending 历史归档',
+          alt: 'GitHub Trending 归档',
         }
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'GitHub Trending 历史归档 - 每日热门开源项目记录',
+      title: 'GitHub Trending 归档 - 每日热门开源项目记录',
       description: '每日 GitHub Trending 开源项目归档，追踪最热门的开源项目和技术趋势。',
       images: [`${baseUrl}/og-image.png`],
       creator: '@github_trending',
@@ -87,7 +87,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "GitHub Trending 历史归档",
+              "name": "GitHub Trending 归档",
               "description": "每日 GitHub Trending 开源项目归档，追踪最热门的开源项目和技术趋势。",
               "url": process.env.NEXT_PUBLIC_BASE_URL || 'https://github-trending-history.vercel.app',
               "potentialAction": {
@@ -100,7 +100,7 @@ export default function RootLayout({
               },
               "publisher": {
                 "@type": "Organization",
-                "name": "GitHub Trending 历史归档"
+                "name": "GitHub Trending 归档"
               }
             })
           }}

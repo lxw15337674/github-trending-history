@@ -1,5 +1,5 @@
 {
-    "name": "GitHub Trending 历史归档",
+    "name": "GitHub Trending 归档",
     "short_name": "GitHub Trending",
     "description": "每日 GitHub Trending 开源项目归档，追踪最热门的开源项目和技术趋势。",
     "start_url": "/",
