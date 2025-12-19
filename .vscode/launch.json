@@ -4,6 +4,23 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Debug with Bun",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeExecutable": "bun",
+            "runtimeArgs": [
+                "run",
+                "${workspaceFolder}/github-trending.ts"
+            ],
+            "env": {
+                "CLOUDFLARE_ACCOUNT_ID": "${env:CLOUDFLARE_ACCOUNT_ID}",
+                "CLOUDFLARE_API_KEY": "${env:CLOUDFLARE_API_KEY}"
+            }
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Debug with vite-node",
             "skipFiles": [
                 "<node_internals>/**"
@@ -11,7 +28,7 @@
             "runtimeExecutable": "npx",
             "runtimeArgs": [
                 "vite-node",
-                "${workspaceFolder}/index.ts"
+                "${workspaceFolder}/github-trending.ts"
             ]
         },
         {

@@ -159,7 +159,7 @@ async function updateReadme(data: GitHubTrendingData): Promise<void> {
       ? `${(repo.todayStars / 1000).toFixed(1)}k`
       : repo.todayStars.toString();
     
-    return `| ${i + 1} | [${repo.fullName}](${repo.url}) | ${repo.description.slice(0, 50)}... | ${repo.language || '-'} | ${displayStars} | ${displayTodayStars} | ${summary.slice(0, 60)}... |`;
+    return `| ${i + 1} | [${repo.fullName}](${repo.url}) | ${repo.description.slice(0, 50)}... | ${repo.language || '-'} | ${displayStars} | ${displayTodayStars} | ${summary} |`;
   }).join('\n');
 
   const newSection = `<!-- BEGIN GITHUB TRENDING -->

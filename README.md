@@ -67,18 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-18 | **成功**: 0 | **失败**: 6
+**最后更新**: 2025-12-19 | **成功**: 6 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 46.7k | 187 | 处理失败... |
-| 2 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 43.6k | 257 | 处理失败... |
-| 3 | [astral-sh/ty](https://github.com/astral-sh/ty) | An extremely fast Python type checker and language... | Python | 14.8k | 250 | 处理失败... |
-| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents... | Python | 19.8k | 102 | 处理失败... |
-| 5 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer ... | Go | 32.9k | 130 | 处理失败... |
-| 6 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 16.2k | 457 | 处理失败... |
+| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 46.9k | 178 | Claude Code是一款终端级智能编程工具，通过自然语言指令实现代码解释、自动化任务执行和Git流程管理，支持多平台... |
+| 2 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 43.7k | 256 | 该项目是一个AI驱动的对冲基金模拟系统，整合了15种经典投资策略，通过多代理协作实现量化交易信号生成与风险管理，包含基本... |
+| 3 | [astral-sh/ty](https://github.com/astral-sh/ty) | An extremely fast Python type checker and language... | Python | 15.0k | 251 | ty 是一个用 Rust 编写的高性能 Python 类型检查器和语言服务器，提供比 MyPy 和 Pyright 快 ... |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents... | Python | 20.0k | 102 | Letta是一个用于构建有状态AI代理的开源平台，支持多模型提供商和高级内存管理，实现代理的持续学习与自我优化。提供Py... |
+| 5 | [schollz/croc](https://github.com/schollz/croc) | Easily and securely send things from one computer ... | Go | 33.1k | 130 | croc是用Go语言编写的跨平台文件传输工具，支持Windows、Linux和Mac。提供端到端加密（PAKE协议），无... |
+| 6 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 16.3k | 477 | Chatterbox是Resemble AI开发的开源文本转语音（TTS）模型家族，包含350M参数的Turbo版、多语... |
 
-[查看完整数据](api/github/2025-12-18.json)
+[查看完整数据](api/github/2025-12-19.json)
 <!-- END GITHUB TRENDING -->
 
 

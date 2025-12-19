@@ -1,5 +1,6 @@
 // Cloudflare Workers AI 服务
 
+import axios from 'axios';
 import { AIInput, AISummary } from './github-types';
 
 const CLOUDFLARE_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
@@ -45,54 +46,57 @@ ${truncatedReadme}
   ];
 
   // 调用 Cloudflare AI
-  const response = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/run/${AI_MODEL}`,
-    {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${CLOUDFLARE_API_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ messages })
-    }
-  );
-
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`Cloudflare AI 请求失败 (${response.status}): ${error}`);
-  }
-
-  const result = await response.json();
-
-  // 解析 AI 响应
-  if (!result.success || !result.result?.response) {
-    throw new Error('Cloudflare AI 返回格式错误');
-  }
-
-  const aiResponse = result.result.response.trim();
-
-  // 尝试解析 JSON
   try {
-    // 提取 JSON（可能包含 markdown 代码块）
-    const jsonMatch = aiResponse.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      throw new Error('AI 响应中未找到 JSON 格式');
+    const response = await axios.post(
+      `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/run/${AI_MODEL}`,
+      { messages },
+      {
+        headers: {
+          'Authorization': `Bearer ${CLOUDFLARE_API_KEY}`,
+          'Content-Type': 'application/json'
+        }
+      }
+    );
+
+    const result = response.data;
+
+    // 解析 AI 响应
+    if (!result.success || !result.result?.choices?.[0]?.message?.content) {
+      throw new Error('Cloudflare AI 返回格式错误');
     }
 
-    const parsed = JSON.parse(jsonMatch[0]);
+    const aiResponse = result.result.choices[0].message.content.trim();
+    console.log(JSON.stringify(aiResponse)); // 输出前 200 字供调试
+    // 尝试解析 JSON
+    try {
+      // 提取 JSON（可能包含 markdown 代码块）
+      const jsonMatch = aiResponse.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) {
+        throw new Error('AI 响应中未找到 JSON 格式');
+      }
 
-    // 验证必需字段
-    if (!parsed.summary || !parsed.techStack || !parsed.useCase) {
-      throw new Error('AI 返回的 JSON 缺少必需字段');
+      const parsed = JSON.parse(jsonMatch[0]);
+
+      // 验证必需字段
+      if (!parsed.summary || !parsed.techStack || !parsed.useCase) {
+        throw new Error('AI 返回的 JSON 缺少必需字段');
+      }
+
+      return {
+        summary: String(parsed.summary).slice(0, 200), // 强制限制 200 字
+        techStack: Array.isArray(parsed.techStack) ? parsed.techStack.slice(0, 5) : [],
+        useCase: String(parsed.useCase).slice(0, 100)
+      };
+
+    } catch (parseError) {
+      throw new Error(`解析 AI 响应失败: ${parseError instanceof Error ? parseError.message : String(parseError)}\n原始响应: ${aiResponse.slice(0, 200)}`);
     }
-
-    return {
-      summary: String(parsed.summary).slice(0, 200), // 强制限制 200 字
-      techStack: Array.isArray(parsed.techStack) ? parsed.techStack.slice(0, 5) : [],
-      useCase: String(parsed.useCase).slice(0, 100)
-    };
-
-  } catch (parseError) {
-    throw new Error(`解析 AI 响应失败: ${parseError instanceof Error ? parseError.message : String(parseError)}\n原始响应: ${aiResponse.slice(0, 200)}`);
+  } catch (error) {
+    if (axios.isAxiosError(error)) {
+      const status = error.response?.status || 'unknown';
+      const errorMsg = error.response?.data || error.message;
+      throw new Error(`Cloudflare AI 请求失败 (${status}): ${JSON.stringify(errorMsg)}`);
+    }
+    throw error;
   }
 }
