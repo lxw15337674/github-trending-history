@@ -1,0 +1,226 @@
+{
+  "date": "2025-12-20",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "exo-explore/exo",
+      "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
+      "language": "Python",
+      "stars": 34511,
+      "forks": 2336,
+      "todayStars": 615,
+      "url": "https://github.com/exo-explore/exo",
+      "aiSummary": {
+        "summary": "exo 项目旨在通过日常设备构建家庭 AI 集群，支持自动设备发现、RDMA 低延迟通信和张量并行计算。利用 MLX 框架实现模型分布式推理，可显著提升大模型运行效率，适用于资源受限场景下的分布式 AI 计算。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "Node.js"
+        ],
+        "useCase": "家庭或小型团队利用现有设备构建低成本AI分布式计算集群"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "lintsinghua/DeepAudit",
+      "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。​让安全不再昂贵，让审计不再复杂。",
+      "language": "Python",
+      "stars": 2020,
+      "forks": 215,
+      "todayStars": 79,
+      "url": "https://github.com/lintsinghua/DeepAudit",
+      "aiSummary": {
+        "summary": "DeepAudit是基于多智能体协作的代码安全审计平台，通过Orchestrator、Recon、Analysis、Verification等模块实现自动化漏洞挖掘与沙箱验证，解决传统工具误报率高、缺乏语义理解等问题，支持本地部署与多项目管理。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "React",
+          "TypeScript",
+          "Ollama"
+        ],
+        "useCase": "适用于需要自动化代码安全审计及漏洞验证的开发与运维场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 47417,
+      "forks": 3327,
+      "todayStars": 339,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是终端中的代理编码工具，通过自然语言命令执行代码任务、解释复杂代码并管理Git流程，支持多平台安装，适用于提升开发效率的场景。",
+        "techStack": [
+          "Shell",
+          "Node.js"
+        ],
+        "useCase": "开发者通过自然语言指令在终端或IDE中加速代码编写和Git管理。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "github/awesome-copilot",
+      "description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
+      "language": "JavaScript",
+      "stars": 15031,
+      "forks": 1764,
+      "todayStars": 236,
+      "url": "https://github.com/github/awesome-copilot",
+      "aiSummary": {
+        "summary": "GitHub Copilot社区定制化工具库，包含指令、提示和配置，提升代码生成、文档编写及特定场景下的AI协作效率。提供多种预设模板和MCP服务器集成方案。",
+        "techStack": [
+          "JavaScript",
+          "Docker",
+          "MCP Server"
+        ],
+        "useCase": "开发人员优化代码生成和文档编写的AI协作效率"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "swisskyrepo/PayloadsAllTheThings",
+      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "language": "Python",
+      "stars": 72841,
+      "forks": 16362,
+      "todayStars": 307,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "aiSummary": {
+        "summary": "PayloadsAllTheThings 是一个专注于Web应用安全的渗透测试载荷库，包含多种漏洞利用技巧和绕过方法。项目提供详细的文档说明、Burp Intruder模板及示例文件，支持快速构建测试场景，适用于CTF竞赛和安全测试场景。",
+        "techStack": [
+          "Python",
+          "Burp Intruder",
+          "Markdown"
+        ],
+        "useCase": "渗透测试与Web安全漏洞利用"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "sgl-project/mini-sglang",
+      "description": "",
+      "language": "Python",
+      "stars": 1692,
+      "forks": 133,
+      "todayStars": 312,
+      "url": "https://github.com/sgl-project/mini-sglang",
+      "aiSummary": {
+        "summary": "Mini-SGLang 是一个轻量级高性能LLM推理框架，通过Radix Cache、Tensor Parallelism等优化技术实现低延迟高吞吐，代码量约5000行且模块化可读性强，支持多GPU扩展和长文本处理。",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "PyTorch"
+        ],
+        "useCase": "适用于需要高性能部署和研究LLM服务优化技术的场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cloudcommunity/Free-Certifications",
+      "description": "A curated list of free courses with certifications. Also available at https://free-certifications.com/",
+      "language": "",
+      "stars": 47142,
+      "forks": 3174,
+      "todayStars": 250,
+      "url": "https://github.com/cloudcommunity/Free-Certifications",
+      "aiSummary": {
+        "summary": "该项目是一个免费技术认证课程集合库，涵盖云计算、数据科学、编程等领域，提供多平台认证路径和学习资源，包含时间限制或免费试用信息。",
+        "techStack": [
+          "Markdown",
+          "Git",
+          "HTML/CSS"
+        ],
+        "useCase": "适合需要免费获取技术认证和提升职业技能的学习者或从业者"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "GreyDGL/PentestGPT",
+      "description": "A GPT-empowered penetration testing tool",
+      "language": "Python",
+      "stars": 9789,
+      "forks": 1433,
+      "todayStars": 257,
+      "url": "https://github.com/GreyDGL/PentestGPT",
+      "aiSummary": {
+        "summary": "PentestGPT是一款基于GenAI的渗透测试工具，支持自主代理执行自动化测试，具备会话持久化和Docker隔离环境。可处理Web、密码学、逆向等多种安全挑战，提供实时反馈与可扩展架构。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM（Anthropic/OpenRouter等）"
+        ],
+        "useCase": "适用于网络安全渗透测试与CTF竞赛场景的自动化辅助工具"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "NexaAI/nexa-sdk",
+      "description": "Run the latest LLMs and VLMs across GPU, NPU, and CPU with PC (Python/C++) & mobile (Android & iOS) support, running quickly with OpenAI gpt-oss, Granite4, Qwen3VL, Gemma 3n and more.",
+      "language": "Go",
+      "stars": 6748,
+      "forks": 876,
+      "todayStars": 303,
+      "url": "https://github.com/NexaAI/nexa-sdk",
+      "aiSummary": {
+        "summary": "NexaAI/nexa-sdk 是一个跨平台AI模型推理工具包，支持GPU/NPU/CPU多硬件加速，兼容LLMs/VLMs等模型格式。通过自研NexaML引擎实现低延迟高性能推理，提供OpenAI兼容API及多模态支持，覆盖PC、移动设备及边缘计算场景。",
+        "techStack": [
+          "Go",
+          "NPU/GPU优化",
+          "GGUF/MLX模型格式"
+        ],
+        "useCase": "需要多平台AI模型部署与高性能推理的跨终端应用开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "astral-sh/ty",
+      "description": "An extremely fast Python type checker and language server, written in Rust.",
+      "language": "Python",
+      "stars": 15240,
+      "forks": 160,
+      "todayStars": 120,
+      "url": "https://github.com/astral-sh/ty",
+      "aiSummary": {
+        "summary": "ty是用Rust开发的超快速Python类型检查器和语言服务器，提供比mypy和Pyright快10-100倍的类型检查速度，支持丰富的代码诊断、增量分析、多编辑器集成及高级类型特性。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Language Server Protocol"
+        ],
+        "useCase": "适用于需要高速类型检查和深度IDE集成的Python开发项目"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 105839,
+      "forks": 4843,
+      "todayStars": 226,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "iptv-org/iptv 是一个聚合全球公开IPTV频道的项目，提供可直接使用的M3U播放列表链接，支持通过视频播放器实时观看。项目包含频道数据库、EPG电子节目指南及API接口，便于开发者集成与扩展。遵循开源协作模式，强调合法合规性。",
+        "techStack": [
+          "TypeScript",
+          "M3U",
+          "HTML",
+          "JavaScript",
+          "REST API"
+        ],
+        "useCase": "全球IPTV频道资源聚合与实时流媒体播放"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-20T23:24:24.584Z",
+    "duration": "80s",
+    "version": "1.0.0"
+  }
+}
