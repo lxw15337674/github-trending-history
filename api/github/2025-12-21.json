@@ -1,0 +1,185 @@
+{
+  "date": "2025-12-21",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "exo-explore/exo",
+      "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
+      "language": "Python",
+      "stars": 35584,
+      "forks": 2390,
+      "todayStars": 1151,
+      "url": "https://github.com/exo-explore/exo",
+      "aiSummary": {
+        "summary": "exo项目旨在通过日常设备构建家庭AI集群，支持自动设备发现、RDMA过Thunderbolt降低延迟，并提供模型分片与拓扑感知并行计算。利用MLX框架实现高效分布式推理，可显著提升大模型运行速度。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "RDMA",
+          "Thunderbolt"
+        ],
+        "useCase": "个人或小型团队利用现有设备搭建高性能AI分布式计算集群"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "GreyDGL/PentestGPT",
+      "description": "A GPT-empowered penetration testing tool",
+      "language": "Python",
+      "stars": 10012,
+      "forks": 1467,
+      "todayStars": 188,
+      "url": "https://github.com/GreyDGL/PentestGPT",
+      "aiSummary": {
+        "summary": "PentestGPT是一款基于GenAI的渗透测试工具，支持AI驱动的漏洞检测与CTF竞赛解题。具备自主代理、会话持久化、多模型支持及实时反馈功能，集成Web、Crypto等多领域测试能力。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM（Anthropic/OpenRouter）"
+        ],
+        "useCase": "网络安全渗透测试与CTF竞赛自动化漏洞挖掘"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "swisskyrepo/PayloadsAllTheThings",
+      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "language": "Python",
+      "stars": 73069,
+      "forks": 16376,
+      "todayStars": 241,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "aiSummary": {
+        "summary": "该项目是一个全面的Web应用安全测试和渗透测试payload集合，包含多种漏洞利用技巧和绕过方法，适用于CTF比赛及安全研究。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于Web应用安全测试和渗透测试中的payload收集与绕过技术参考。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "sgl-project/mini-sglang",
+      "description": "",
+      "language": "Python",
+      "stars": 1895,
+      "forks": 152,
+      "todayStars": 202,
+      "url": "https://github.com/sgl-project/mini-sglang",
+      "aiSummary": {
+        "summary": "Mini-SGLang 是一个轻量级高性能的LLM推理框架，通过Radix Cache、Chunked Prefill等优化技术实现低延迟高吞吐，支持多GPU张量并行和FlashAttention加速，代码简洁易读适合研究与开发。",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "PyTorch"
+        ],
+        "useCase": "适用于需要高性能且低资源消耗的大型语言模型部署与算法研究场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "pollen-robotics/reachy_mini",
+      "description": "Reachy Mini's SDK",
+      "language": "Python",
+      "stars": 486,
+      "forks": 72,
+      "todayStars": 13,
+      "url": "https://github.com/pollen-robotics/reachy_mini",
+      "aiSummary": {
+        "summary": "Reachy Mini SDK提供Python接口控制开源机器人，支持无线、Lite版及模拟环境。集成AI应用如对话、手势追踪，可连接LLMs并发布至Hugging Face，适用于机器人开发与AI实验。",
+        "techStack": [
+          "Python",
+          "ROS",
+          "Hugging Face API",
+          "MuJoCo"
+        ],
+        "useCase": "机器人开发与AI应用集成的开源SDK"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cocoindex-io/cocoindex",
+      "description": "Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!",
+      "language": "Rust",
+      "stars": 4396,
+      "forks": 353,
+      "todayStars": 187,
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "aiSummary": {
+        "summary": "CocoIndex是基于Rust的高性能AI数据转换框架，支持增量处理和数据血缘追踪。通过声明式Python数据流编程，实现源数据与目标数据的实时同步，提供可插拔的标准化组件，适用于向量索引、知识图谱等场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Postgres"
+        ],
+        "useCase": "AI数据转换、增量处理及数据血缘追踪场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cloudcommunity/Free-Certifications",
+      "description": "A curated list of free courses with certifications. Also available at https://free-certifications.com/",
+      "language": "",
+      "stars": 47581,
+      "forks": 3188,
+      "todayStars": 436,
+      "url": "https://github.com/cloudcommunity/Free-Certifications",
+      "aiSummary": {
+        "summary": "该项目是一个免费技术认证和课程的精选列表，涵盖云计算、编程、数据科学等领域，提供来自GitLab、Oracle、freeCodeCamp、Databricks等机构的认证课程，适合学生、开发者和IT专业人员提升技能。",
+        "techStack": [
+          "Markdown",
+          "GitHub",
+          "HTML/CSS"
+        ],
+        "useCase": "适用于需要免费获取技术认证和课程的学习者和开发者。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 47696,
+      "forks": 3337,
+      "todayStars": 296,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一款终端级智能编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理 Git 流程，支持多平台安装和插件扩展，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "开发者通过自然语言指令加速代码编写与版本控制，适用于日常开发任务自动化。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "",
+      "stars": 199089,
+      "forks": 12130,
+      "todayStars": 168,
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "aiSummary": {
+        "summary": "该项目是一个面向系统管理员、DevOps和安全研究人员的实用工具与知识集合，包含CLI工具、网络管理、容器编排等领域的手册、技巧、博客和开源工具链接，旨在提供高质量的技术资源和日常工作中可直接使用的解决方案。",
+        "techStack": [
+          "Markdown",
+          "HTML",
+          "Shell脚本"
+        ],
+        "useCase": "系统管理与网络安全领域的知识整理及工具汇总"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-21T23:24:20.787Z",
+    "duration": "69s",
+    "version": "1.0.0"
+  }
+}
