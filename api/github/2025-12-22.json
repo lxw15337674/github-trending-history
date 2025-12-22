@@ -1,0 +1,339 @@
+{
+  "date": "2025-12-22",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "exo-explore/exo",
+      "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
+      "language": "Python",
+      "stars": 36969,
+      "forks": 2478,
+      "todayStars": 1327,
+      "url": "https://github.com/exo-explore/exo",
+      "aiSummary": {
+        "summary": "exo 项目旨在利用日常设备构建家庭 AI 集群，支持自动设备发现、RDMA 低延迟通信和模型张量并行。通过 MLX 后端实现跨设备分布式计算，显著提升大模型推理效率，适用于资源受限环境下的大规模 AI 计算需求。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "RDMA over Thunderbolt"
+        ],
+        "useCase": "家庭或小型办公室环境下的分布式 AI 模型训练与推理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 106428,
+      "forks": 4930,
+      "todayStars": 266,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "IPTV-Org/iptv 是一个收集全球公开可用IPTV频道的项目，提供包含所有频道的主播放列表链接，支持用户通过兼容的视频播放器直接访问流媒体内容。项目包含播放列表、EPG指南、数据库链接及API文档，便于开发者和用户获取与管理IPTV资源。",
+        "techStack": [
+          "TypeScript",
+          "M3U",
+          "HTTP"
+        ],
+        "useCase": "为用户提供全球IPTV频道的统一访问入口和开发集成接口"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "swisskyrepo/PayloadsAllTheThings",
+      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "language": "Python",
+      "stars": 73356,
+      "forks": 16395,
+      "todayStars": 339,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "aiSummary": {
+        "summary": "PayloadsAllTheThings 是一个面向Web应用安全和渗透测试的payload集合，包含多种漏洞利用技巧与绕过方法，支持Burp Intruder等工具，适用于安全测试与CTF竞赛场景。",
+        "techStack": [
+          "Python",
+          "Burp Suite",
+          "Nuclei"
+        ],
+        "useCase": "Web应用安全测试与渗透测试场景下的payload及绕过技术参考"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "GreyDGL/PentestGPT",
+      "description": "A GPT-empowered penetration testing tool",
+      "language": "Python",
+      "stars": 10323,
+      "forks": 1542,
+      "todayStars": 325,
+      "url": "https://github.com/GreyDGL/PentestGPT",
+      "aiSummary": {
+        "summary": "PentestGPT是一款基于GPT的渗透测试工具，支持自主代理、会话持久化和多类别安全测试。通过AI驱动的漏洞检测与实时反馈，提升网络安全评估效率，适用于CTF竞赛和系统漏洞挖掘。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM框架"
+        ],
+        "useCase": "自动化渗透测试与网络安全漏洞检测"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 24935,
+      "forks": 2332,
+      "todayStars": 912,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "该项目是Anthropic为Claude代理提供的技能库，包含动态加载的指令、脚本和资源，用于提升特定任务性能。涵盖创意应用、技术任务及企业工作流，部分技能开源且提供文档处理参考实现。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发和测试AI代理技能及专用任务处理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cocoindex-io/cocoindex",
+      "description": "Data transformation framework for AI. Ultra performant, with incremental processing. 🌟 Star if you like it!",
+      "language": "Rust",
+      "stars": 4761,
+      "forks": 367,
+      "todayStars": 407,
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "aiSummary": {
+        "summary": "CocoIndex是用Rust开发的高性能AI数据转换框架，支持增量处理和数据血缘追踪。采用数据流编程模型，开发者可通过Python声明式定义数据转换流程，实现源数据与目标数据的实时同步，适用于向量索引构建、知识图谱等场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "PostgreSQL"
+        ],
+        "useCase": "AI数据处理场景下的实时数据转换与同步"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "language": "Go",
+      "stars": 36032,
+      "forks": 3652,
+      "todayStars": 329,
+      "url": "https://github.com/danielmiessler/Fabric",
+      "aiSummary": {
+        "summary": "Fabric是一个用Go语言开发的开源AI增强框架，通过模块化AI提示系统解决实际问题。支持跨平台集成，提供REST API和命令行接口，涵盖任务管理、国际化的多语言支持及多种AI模型厂商接入，便于开发者高效整合AI能力。",
+        "techStack": [
+          "Go",
+          "REST API",
+          "Swagger/OpenAPI",
+          "i18n"
+        ],
+        "useCase": "帮助开发者快速集成AI功能到日常工具和工作流中"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "stars": 192979,
+      "forks": 75151,
+      "todayStars": 56,
+      "url": "https://github.com/tensorflow/tensorflow",
+      "aiSummary": {
+        "summary": "TensorFlow是Google开发的开源机器学习框架，提供灵活的工具和库，支持研究人员和开发者构建和部署ML应用。支持Python和C++ API，适用于多种硬件加速。",
+        "techStack": [
+          "C++",
+          "Python",
+          "CUDA",
+          "Docker"
+        ],
+        "useCase": "机器学习研究与应用开发"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "rendercv/rendercv",
+      "description": "Typst-based CV/resume generator for academics and engineers",
+      "language": "Python",
+      "stars": 5016,
+      "forks": 416,
+      "todayStars": 350,
+      "url": "https://github.com/rendercv/rendercv",
+      "aiSummary": {
+        "summary": "RenderCV是一款基于Typst的学术及工程领域简历生成工具，通过YAML格式编写内容并转换为专业排版的PDF。支持版本控制、自动化排版及高度定制化设计，提供JSON Schema辅助数据填写，解决传统简历模板布局问题。",
+        "techStack": [
+          "Python",
+          "Typst",
+          "YAML"
+        ],
+        "useCase": "适用于需要生成格式规范、排版精美的学术或工程领域简历的用户"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "language": "Python",
+      "stars": 83460,
+      "forks": 36250,
+      "todayStars": 30,
+      "url": "https://github.com/home-assistant/core",
+      "aiSummary": {
+        "summary": "Home Assistant 是开源家庭自动化平台，强调本地控制与隐私保护。基于Python开发，采用模块化架构支持多设备集成，适用于树莓派或本地服务器部署，提供社区驱动的DIY解决方案。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "家庭智能设备本地化自动化管理与隐私保护场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Semperis/EntraGoat",
+      "description": "A deliberately vulnerable Microsoft Entra ID environment. Learn identity security through hands-on, realistic attack challenges.",
+      "language": "PowerShell",
+      "stars": 796,
+      "forks": 80,
+      "todayStars": 41,
+      "url": "https://github.com/Semperis/EntraGoat",
+      "aiSummary": {
+        "summary": "EntraGoat是一个专为身份安全培训设计的模拟环境，通过PowerShell和Microsoft Graph API创建Microsoft Entra ID的漏洞配置，提供多场景的权限提升攻击演练，支持隔离的测试环境部署。",
+        "techStack": [
+          "PowerShell",
+          "Microsoft Graph API",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "适用于企业安全团队的AD域渗透测试与身份权限漏洞实战培训"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 18201,
+      "forks": 1300,
+      "todayStars": 285,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract 是一个基于 Python 的库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化及多模型适配，适用于医疗、法律等领域的文档信息抽取。",
+        "techStack": [
+          "Python",
+          "Google Gemini",
+          "OpenAI",
+          "Ollama"
+        ],
+        "useCase": "适用于需要从长文档中精准提取结构化数据并可视化分析的场景，如医疗报告处理与法律文本解析。"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "expressjs/express",
+      "description": "Fast, unopinionated, minimalist web framework for node.",
+      "language": "JavaScript",
+      "stars": 68398,
+      "forks": 21863,
+      "todayStars": 25,
+      "url": "https://github.com/expressjs/express",
+      "aiSummary": {
+        "summary": "Express.js 是一个基于 Node.js 的轻量级、高性能 Web 框架，提供路由管理、HTTP 助手函数、模板引擎支持及内容协商等功能。其设计注重简洁和灵活性，适合构建单页应用、网站及 API 服务。项目包含完善的测试覆盖率和详细的文档说明。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "适用于需要快速构建高效、可扩展的 Web 应用和 API 服务的场景"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "lintsinghua/DeepAudit",
+      "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。支持中转站。​让安全不再昂贵，让审计不再复杂。",
+      "language": "Python",
+      "stars": 2388,
+      "forks": 245,
+      "todayStars": 135,
+      "url": "https://github.com/lintsinghua/DeepAudit",
+      "aiSummary": {
+        "summary": "DeepAudit是基于多智能体协作的代码安全审计平台，通过Orchestrator、Recon、Analysis、Verification四类AI代理，实现代码漏洞的自动挖掘、语义分析与沙箱验证，解决传统工具误报率高、缺乏验证手段等问题，支持本地部署与多平台项目管理。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "React",
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适用于需要自动化代码安全审计、降低人工误报率的企业级代码漏洞挖掘场景"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "cloudcommunity/Free-Certifications",
+      "description": "A curated list of free courses with certifications. Also available at https://free-certifications.com/",
+      "language": "",
+      "stars": 48059,
+      "forks": 3209,
+      "todayStars": 519,
+      "url": "https://github.com/cloudcommunity/Free-Certifications",
+      "aiSummary": {
+        "summary": "该项目是一个免费认证课程的精选列表，涵盖云计算、编程、数据科学、网络安全等多个领域，提供课程链接及认证信息，帮助开发者和学生获取技能认证。",
+        "techStack": [
+          "Unknown"
+        ],
+        "useCase": "开发者及学生获取免费技术认证与课程学习资源"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 451138,
+      "forks": 42318,
+      "todayStars": 336,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "该项目提供多种技术的从零实现教程，涵盖3D渲染、区块链、Web服务器等20+领域，通过实践加深编程理解。包含C++、Python、C#等多语言实现方案，适合系统学习技术原理。",
+        "techStack": [
+          "C++",
+          "Python",
+          "C#",
+          "JavaScript",
+          "Go"
+        ],
+        "useCase": "适用于编程学习和技能提升"
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "mudler/LocalAI",
+      "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
+      "language": "Go",
+      "stars": 40482,
+      "forks": 3260,
+      "todayStars": 70,
+      "url": "https://github.com/mudler/LocalAI",
+      "aiSummary": {
+        "summary": "LocalAI是一款开源的本地AI推理服务，兼容OpenAI API，支持文本、音频、图像等多模态生成。无需GPU，可在消费级硬件上运行，提供分布式、去中心化推理能力，适合作为私有化部署的AI服务替代方案。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "gRPC"
+        ],
+        "useCase": "需要本地化AI推理且对数据隐私要求高的场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-22T23:26:36.764Z",
+    "duration": "121s",
+    "version": "1.0.0"
+  }
+}

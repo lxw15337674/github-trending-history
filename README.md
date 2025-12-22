@@ -67,21 +67,29 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-21 | **成功**: 9 | **失败**: 0
+**最后更新**: 2025-12-22 | **成功**: 17 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [exo-explore/exo](https://github.com/exo-explore/exo) | Run your own AI cluster at home with everyday devi... | Python | 35.6k | 1.2k | exo项目旨在通过日常设备构建家庭AI集群，支持自动设备发现、RDMA过Thunderbolt降低延迟，并提供模型分片与拓扑感知并行计算。利用MLX框架实现高效分布式推理，可显著提升大模型运行速度。 |
-| 2 | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | A GPT-empowered penetration testing tool... | Python | 10.0k | 188 | PentestGPT是一款基于GenAI的渗透测试工具，支持AI驱动的漏洞检测与CTF竞赛解题。具备自主代理、会话持久化、多模型支持及实时反馈功能，集成Web、Crypto等多领域测试能力。 |
-| 3 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Appli... | Python | 73.1k | 241 | 该项目是一个全面的Web应用安全测试和渗透测试payload集合，包含多种漏洞利用技巧和绕过方法，适用于CTF比赛及安全研究。 |
-| 4 | [sgl-project/mini-sglang](https://github.com/sgl-project/mini-sglang) | ... | Python | 1.9k | 202 | Mini-SGLang 是一个轻量级高性能的LLM推理框架，通过Radix Cache、Chunked Prefill等优化技术实现低延迟高吞吐，支持多GPU张量并行和FlashAttention加速，代码简洁易读适合研究与开发。 |
-| 5 | [pollen-robotics/reachy_mini](https://github.com/pollen-robotics/reachy_mini) | Reachy Mini's SDK... | Python | 486 | 13 | Reachy Mini SDK提供Python接口控制开源机器人，支持无线、Lite版及模拟环境。集成AI应用如对话、手势追踪，可连接LLMs并发布至Hugging Face，适用于机器人开发与AI实验。 |
-| 6 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Data transformation framework for AI. Ultra perfor... | Rust | 4.4k | 187 | CocoIndex是基于Rust的高性能AI数据转换框架，支持增量处理和数据血缘追踪。通过声明式Python数据流编程，实现源数据与目标数据的实时同步，提供可插拔的标准化组件，适用于向量索引、知识图谱等场景。 |
-| 7 | [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) | A curated list of free courses with certifications... | - | 47.6k | 436 | 该项目是一个免费技术认证和课程的精选列表，涵盖云计算、编程、数据科学等领域，提供来自GitLab、Oracle、freeCodeCamp、Databricks等机构的认证课程，适合学生、开发者和IT专业人员提升技能。 |
-| 8 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 47.7k | 296 | Claude Code 是一款终端级智能编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理 Git 流程，支持多平台安装和插件扩展，提升开发效率。 |
-| 9 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | A collection of inspiring lists, manuals, cheatshe... | - | 199.1k | 168 | 该项目是一个面向系统管理员、DevOps和安全研究人员的实用工具与知识集合，包含CLI工具、网络管理、容器编排等领域的手册、技巧、博客和开源工具链接，旨在提供高质量的技术资源和日常工作中可直接使用的解决方案。 |
+| 1 | [exo-explore/exo](https://github.com/exo-explore/exo) | Run your own AI cluster at home with everyday devi... | Python | 37.0k | 1.3k | exo 项目旨在利用日常设备构建家庭 AI 集群，支持自动设备发现、RDMA 低延迟通信和模型张量并行。通过 MLX 后端实现跨设备分布式计算，显著提升大模型推理效率，适用于资源受限环境下的大规模 AI 计算需求。 |
+| 2 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 106.4k | 266 | IPTV-Org/iptv 是一个收集全球公开可用IPTV频道的项目，提供包含所有频道的主播放列表链接，支持用户通过兼容的视频播放器直接访问流媒体内容。项目包含播放列表、EPG指南、数据库链接及API文档，便于开发者和用户获取与管理IPTV资源。 |
+| 3 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | A list of useful payloads and bypass for Web Appli... | Python | 73.4k | 339 | PayloadsAllTheThings 是一个面向Web应用安全和渗透测试的payload集合，包含多种漏洞利用技巧与绕过方法，支持Burp Intruder等工具，适用于安全测试与CTF竞赛场景。 |
+| 4 | [GreyDGL/PentestGPT](https://github.com/GreyDGL/PentestGPT) | A GPT-empowered penetration testing tool... | Python | 10.3k | 325 | PentestGPT是一款基于GPT的渗透测试工具，支持自主代理、会话持久化和多类别安全测试。通过AI驱动的漏洞检测与实时反馈，提升网络安全评估效率，适用于CTF竞赛和系统漏洞挖掘。 |
+| 5 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills... | Python | 24.9k | 912 | 该项目是Anthropic为Claude代理提供的技能库，包含动态加载的指令、脚本和资源，用于提升特定任务性能。涵盖创意应用、技术任务及企业工作流，部分技能开源且提供文档处理参考实现。 |
+| 6 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Data transformation framework for AI. Ultra perfor... | Rust | 4.8k | 407 | CocoIndex是用Rust开发的高性能AI数据转换框架，支持增量处理和数据血缘追踪。采用数据流编程模型，开发者可通过Python声明式定义数据转换流程，实现源数据与目标数据的实时同步，适用于向量索引构建、知识图谱等场景。 |
+| 7 | [danielmiessler/Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting ... | Go | 36.0k | 329 | Fabric是一个用Go语言开发的开源AI增强框架，通过模块化AI提示系统解决实际问题。支持跨平台集成，提供REST API和命令行接口，涵盖任务管理、国际化的多语言支持及多种AI模型厂商接入，便于开发者高效整合AI能力。 |
+| 8 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | An Open Source Machine Learning Framework for Ever... | C++ | 193.0k | 56 | TensorFlow是Google开发的开源机器学习框架，提供灵活的工具和库，支持研究人员和开发者构建和部署ML应用。支持Python和C++ API，适用于多种硬件加速。 |
+| 9 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | Typst-based CV/resume generator for academics and ... | Python | 5.0k | 350 | RenderCV是一款基于Typst的学术及工程领域简历生成工具，通过YAML格式编写内容并转换为专业排版的PDF。支持版本控制、自动化排版及高度定制化设计，提供JSON Schema辅助数据填写，解决传统简历模板布局问题。 |
+| 10 | [home-assistant/core](https://github.com/home-assistant/core) | 🏡 Open source home automation that puts local con... | Python | 83.5k | 30 | Home Assistant 是开源家庭自动化平台，强调本地控制与隐私保护。基于Python开发，采用模块化架构支持多设备集成，适用于树莓派或本地服务器部署，提供社区驱动的DIY解决方案。 |
+| 11 | [Semperis/EntraGoat](https://github.com/Semperis/EntraGoat) | A deliberately vulnerable Microsoft Entra ID envir... | PowerShell | 796 | 41 | EntraGoat是一个专为身份安全培训设计的模拟环境，通过PowerShell和Microsoft Graph API创建Microsoft Entra ID的漏洞配置，提供多场景的权限提升攻击演练，支持隔离的测试环境部署。 |
+| 12 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 18.2k | 285 | LangExtract 是一个基于 Python 的库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化及多模型适配，适用于医疗、法律等领域的文档信息抽取。 |
+| 13 | [expressjs/express](https://github.com/expressjs/express) | Fast, unopinionated, minimalist web framework for ... | JavaScript | 68.4k | 25 | Express.js 是一个基于 Node.js 的轻量级、高性能 Web 框架，提供路由管理、HTTP 助手函数、模板引擎支持及内容协商等功能。其设计注重简洁和灵活性，适合构建单页应用、网站及 API 服务。项目包含完善的测试覆盖率和详细的文档说明。 |
+| 14 | [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit) | DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能... | Python | 2.4k | 135 | DeepAudit是基于多智能体协作的代码安全审计平台，通过Orchestrator、Recon、Analysis、Verification四类AI代理，实现代码漏洞的自动挖掘、语义分析与沙箱验证，解决传统工具误报率高、缺乏验证手段等问题，支持本地部署与多平台项目管理。 |
+| 15 | [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications) | A curated list of free courses with certifications... | - | 48.1k | 519 | 该项目是一个免费认证课程的精选列表，涵盖云计算、编程、数据科学、网络安全等多个领域，提供课程链接及认证信息，帮助开发者和学生获取技能认证。 |
+| 16 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 451.1k | 336 | 该项目提供多种技术的从零实现教程，涵盖3D渲染、区块链、Web服务器等20+领域，通过实践加深编程理解。包含C++、Python、C#等多语言实现方案，适合系统学习技术原理。 |
+| 17 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | 🤖 The free, Open Source alternative to OpenAI, Cl... | Go | 40.5k | 70 | LocalAI是一款开源的本地AI推理服务，兼容OpenAI API，支持文本、音频、图像等多模态生成。无需GPU，可在消费级硬件上运行，提供分布式、去中心化推理能力，适合作为私有化部署的AI服务替代方案。 |
 
-[查看完整数据](api/github/2025-12-21.json)
+[查看完整数据](api/github/2025-12-22.json)
 <!-- END GITHUB TRENDING -->
 
 
