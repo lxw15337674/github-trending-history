@@ -1,0 +1,284 @@
+{
+  "date": "2025-12-23",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "rendercv/rendercv",
+      "description": "Typst-based CV/resume generator for academics and engineers",
+      "language": "Python",
+      "stars": 6765,
+      "forks": 501,
+      "todayStars": 1100,
+      "url": "https://github.com/rendercv/rendercv",
+      "aiSummary": {
+        "summary": "RenderCV是一款基于Typst的学术与工程简历生成工具，通过YAML配置文件实现自动化PDF排版。支持版本控制、内容优先编辑、精准排版及高度定制化设计，提供JSON Schema验证与多样化主题选项。",
+        "techStack": [
+          "Python",
+          "YAML",
+          "PDF生成",
+          "Typst"
+        ],
+        "useCase": "适用于学术研究者和工程师的高效简历制作与格式管理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "exo-explore/exo",
+      "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
+      "language": "Python",
+      "stars": 37866,
+      "forks": 2533,
+      "todayStars": 1377,
+      "url": "https://github.com/exo-explore/exo",
+      "aiSummary": {
+        "summary": "exo项目旨在通过日常设备构建AI集群，支持自动设备发现、RDMA加速和张量并行计算，提升模型推理性能。利用MLX框架实现分布式通信，适用于家庭环境下的大规模AI计算需求。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "RDMA"
+        ],
+        "useCase": "家庭环境下的AI模型分布式推理与集群计算"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 18617,
+      "forks": 1319,
+      "todayStars": 413,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一款基于Python的LLM文本结构化工具，支持精准源文定位、多轮处理和交互式可视化，可高效提取长文档关键信息并生成结构化数据。",
+        "techStack": [
+          "Python",
+          "LLM（Gemini/OpenAI/Ollama）",
+          "HTML可视化"
+        ],
+        "useCase": "适用于医疗文本、法律文档等长文本的结构化信息提取场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 5426,
+      "forks": 545,
+      "todayStars": 143,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个轻量级本地RAG系统，通过图结构优化实现97%存储压缩，支持在个人设备上进行隐私保护的语义搜索，可处理文档、邮件、聊天记录等多源数据",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图计算"
+        ],
+        "useCase": "需要隐私保护和本地化部署的个人知识库语义检索场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "safety-research/bloom",
+      "description": "bloom - evaluate any behavior immediately  🌸🌱",
+      "language": "Python",
+      "stars": 544,
+      "forks": 80,
+      "todayStars": 184,
+      "url": "https://github.com/safety-research/bloom",
+      "aiSummary": {
+        "summary": "Bloom是一个用于自动化评估大语言模型行为的开源工具，通过配置种子生成动态评估套件，检测如偏见、自我保护等目标行为。支持零样本或示例驱动的评估，生成可复现的交互场景，适用于模型安全性与行为研究。",
+        "techStack": [
+          "Python",
+          "PyYAML",
+          "dotenv"
+        ],
+        "useCase": "用于评估和检测大语言模型中的特定行为倾向，提升AI系统安全性"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "stan-smith/FossFLOW",
+      "description": "Make beautiful isometric infrastructure diagrams",
+      "language": "TypeScript",
+      "stars": 14509,
+      "forks": 937,
+      "todayStars": 431,
+      "url": "https://github.com/stan-smith/FossFLOW",
+      "aiSummary": {
+        "summary": "FossFLOW 是基于 TypeScript 和 React 的开源等轴测图绘制工具，支持多语言、离线使用及性能优化，可创建美观的基础设施架构图。提供点击/拖拽两种连接方式，内置8种语言翻译和自动语言检测功能。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Isoflow"
+        ],
+        "useCase": "适用于需要可视化创建等轴测网络架构图和系统设计图的场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "vendure-ecommerce/vendure",
+      "description": "The most customizable commerce platform built with TypeScript, NestJS and GraphQL.",
+      "language": "TypeScript",
+      "stars": 7081,
+      "forks": 1247,
+      "todayStars": 5,
+      "url": "https://github.com/vendure-ecommerce/vendure",
+      "aiSummary": {
+        "summary": "Vendure是基于TypeScript的开源无头电商平台，提供可扩展的插件架构和API优先设计，支持企业级电商应用的快速开发与定制，涵盖B2B、多供应商市场及D2C场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "NestJS",
+          "GraphQL"
+        ],
+        "useCase": "企业级定制化电商解决方案开发"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "cloudcommunity/Free-Certifications",
+      "description": "A curated list of free courses with certifications. Also available at https://free-certifications.com/",
+      "language": "",
+      "stars": 48418,
+      "forks": 3218,
+      "todayStars": 421,
+      "url": "https://github.com/cloudcommunity/Free-Certifications",
+      "aiSummary": {
+        "summary": "项目是一个免费课程和认证的精选列表，涵盖云服务、编程、数据科学等领域，提供多个平台的免费学习资源和认证机会，帮助用户提升技术能力。",
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "useCase": "适合需要免费获取技术认证和课程的学习者及从业者。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Svelte",
+      "stars": 118656,
+      "forks": 16715,
+      "todayStars": 191,
+      "url": "https://github.com/open-webui/open-webui",
+      "aiSummary": {
+        "summary": "Open WebUI是基于Svelte的自托管AI平台，支持Ollama和OpenAI API，提供RAG推理引擎。具备权限管理、响应式设计、PWA、Markdown/LaTeX支持及语音视频通话功能，适用于多模型集成的AI部署场景。",
+        "techStack": [
+          "Svelte",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "需要自托管且支持多AI模型集成的用户友好型平台部署"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 13326,
+      "forks": 1169,
+      "todayStars": 230,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "CLI工具用于配置和监控Claude Code，提供100+预设模板，支持AI代理、命令、MCP外部服务集成及自动化钩子，提升开发效率。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "快速构建AI辅助开发环境并实现多工具集成"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "makeplane/plane",
+      "description": "🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.",
+      "language": "TypeScript",
+      "stars": 41041,
+      "forks": 3032,
+      "todayStars": 72,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "开源项目管理工具，支持问题跟踪、冲刺周期管理、产品路线图规划，提供工作项管理、数据分析、自定义视图等功能，旨在简化团队协作流程。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适用于需要替代JIRA/Asana的团队项目管理与敏捷开发场景"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "xerrors/Yuxi-Know",
+      "description": "结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "language": "Python",
+      "stars": 2831,
+      "forks": 359,
+      "todayStars": 52,
+      "url": "https://github.com/xerrors/Yuxi-Know",
+      "aiSummary": {
+        "summary": "语析是一个基于LightRAG知识库与知识图谱的智能体开发平台，整合RAG技术与图谱结构，提供全流程开发套件。支持多模态数据处理与知识推理，适用于企业级智能客服与数据分析场景。",
+        "techStack": [
+          "Python",
+          "LangChain v1",
+          "Vue.js",
+          "FastAPI",
+          "LightRAG"
+        ],
+        "useCase": "企业级智能客服系统与知识驱动的数据分析平台开发"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "swisskyrepo/PayloadsAllTheThings",
+      "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+      "language": "Python",
+      "stars": 73611,
+      "forks": 16408,
+      "todayStars": 259,
+      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+      "aiSummary": {
+        "summary": "该项目是一个面向Web应用安全和渗透测试的payload与绕过方法集合，包含多种漏洞利用技巧和测试工具，支持Burp Intruder等安全测试框架，适用于CTF竞赛和安全研究。",
+        "techStack": [
+          "Python",
+          "Burp Suite",
+          "Markdown"
+        ],
+        "useCase": "适用于Web应用安全测试与渗透测试中的漏洞利用和防护策略研究。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "vllm-project/vllm-omni",
+      "description": "A framework for efficient model inference with omni-modality models",
+      "language": "Python",
+      "stars": 1392,
+      "forks": 188,
+      "todayStars": 115,
+      "url": "https://github.com/vllm-project/vllm-omni",
+      "aiSummary": {
+        "summary": "vLLM-Omni是基于vLLM的多模态模型推理框架，支持文本、图像、视频、音频等多模态输入输出，兼容非自回归架构如DiT模型，提供高效KV缓存管理、流水线执行和动态资源分配，集成Hugging Face并支持分布式推理。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "OpenAI API"
+        ],
+        "useCase": "适用于需要高效处理多模态数据的模型推理与大规模分布式部署场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-23T23:25:43.917Z",
+    "duration": "105s",
+    "version": "1.0.0"
+  }
+}
