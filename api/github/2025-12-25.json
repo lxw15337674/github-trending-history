@@ -1,0 +1,192 @@
+{
+  "date": "2025-12-25",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "rendercv/rendercv",
+      "description": "Typst-based CV/resume generator for academics and engineers, YAML to PDF",
+      "language": "Python",
+      "stars": 10658,
+      "forks": 708,
+      "todayStars": 1797,
+      "url": "https://github.com/rendercv/rendercv",
+      "aiSummary": {
+        "summary": "RenderCV是一款基于Typst的学术与工程简历生成工具，通过YAML格式编写内容并转换为专业排版的PDF。支持版本控制、自动格式优化及高度定制化设计，解决传统简历模板布局问题。",
+        "techStack": [
+          "Python",
+          "Typst",
+          "YAML"
+        ],
+        "useCase": "学术研究者及工程师快速生成格式规范的PDF简历"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "xerrors/Yuxi-Know",
+      "description": "结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "language": "Python",
+      "stars": 3158,
+      "forks": 384,
+      "todayStars": 96,
+      "url": "https://github.com/xerrors/Yuxi-Know",
+      "aiSummary": {
+        "summary": "语析是基于LightRAG与知识图谱的智能体开发平台，整合RAG知识库和图谱技术，提供全套开发套件。支持多种AI工具集成，适用于知识密集型智能应用开发。",
+        "techStack": [
+          "Python",
+          "LangChain v1",
+          "Vue.js",
+          "FastAPI",
+          "Neo4j"
+        ],
+        "useCase": "适用于需要知识管理与智能交互的AI系统开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "twitter/the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars": 68769,
+      "forks": 12713,
+      "todayStars": 303,
+      "url": "https://github.com/twitter/the-algorithm",
+      "aiSummary": {
+        "summary": "X平台推荐算法核心代码，包含数据处理、机器学习模型和软件框架，用于生成个性化内容动态消息。涵盖用户行为分析、社交图谱构建、内容评分等模块，支持实时推荐与批量特征计算。",
+        "techStack": [
+          "Scala",
+          "Rust",
+          "Machine Learning"
+        ],
+        "useCase": "社交媒体平台个性化内容推荐系统开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "vendure-ecommerce/vendure",
+      "description": "The most customizable commerce platform built with TypeScript, NestJS and GraphQL.",
+      "language": "TypeScript",
+      "stars": 7574,
+      "forks": 1279,
+      "todayStars": 262,
+      "url": "https://github.com/vendure-ecommerce/vendure",
+      "aiSummary": {
+        "summary": "Vendure是一个基于TypeScript的开源无头电商平台，提供高可定制化的插件架构和企业级功能。支持NestJS和GraphQL技术栈，具备API优先设计，适用于构建B2B、多供应商市场及D2C等复杂电商场景。",
+        "techStack": [
+          "TypeScript",
+          "NestJS",
+          "GraphQL",
+          "Node.js"
+        ],
+        "useCase": "企业级电商解决方案，支持多渠道商业化和深度定制需求"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 6093,
+      "forks": 603,
+      "todayStars": 269,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个基于Python的创新向量数据库，通过图-based选择性重计算和高保真剪枝技术，实现97%存储节省的本地化RAG系统。支持隐私保护的文档语义搜索，适用于个人设备上的大规模数据检索。",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图计算"
+        ],
+        "useCase": "需要隐私保护和高效存储的个人数据语义检索场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "language": "Python",
+      "stars": 17728,
+      "forks": 2366,
+      "todayStars": 468,
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "aiSummary": {
+        "summary": "Chatterbox是Resemble AI开发的开源文本转语音（TTS）模型系列，包含高效低延迟的Turbo版、多语言支持的Multilingual版及可调参的通用版，支持零样本语音生成与情感标签，适用于语音助手、多语言内容生成等场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "TorchScript"
+        ],
+        "useCase": "需要高效多语言文本转语音的智能语音助手及内容生成系统"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 41756,
+      "forks": 3070,
+      "todayStars": 300,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane是一个开源项目管理平台，提供任务管理、sprints周期跟踪、模块划分、自定义视图、AI辅助文档和实时数据分析功能，旨在替代Jira等工具，简化团队协作流程。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "适用于团队项目管理，支持任务跟踪、sprints、文档管理和数据分析。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "vllm-project/vllm-omni",
+      "description": "A framework for efficient model inference with omni-modality models",
+      "language": "Python",
+      "stars": 1698,
+      "forks": 212,
+      "todayStars": 121,
+      "url": "https://github.com/vllm-project/vllm-omni",
+      "aiSummary": {
+        "summary": "vLLM-Omni是基于vLLM的多模态模型推理框架，支持文本、图像、视频、音频等多模态数据处理，兼容非自回归架构与多模态输出。通过KV缓存优化、流水线执行和动态资源分配实现高效推理，提供Hugging Face集成、分布式并行支持及OpenAI兼容API，简化多模态模型服务化流程。",
+        "techStack": [
+          "Python",
+          "Hugging Face",
+          "OpenAI API",
+          "Tensor Parallelism",
+          "Pipeline Parallelism"
+        ],
+        "useCase": "多模态AI模型的高效部署与推理服务"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ModelTC/LightX2V",
+      "description": "Light Video Generation Inference Framework",
+      "language": "Python",
+      "stars": 1419,
+      "forks": 93,
+      "todayStars": 44,
+      "url": "https://github.com/ModelTC/LightX2V",
+      "aiSummary": {
+        "summary": "LightX2V是轻量级视频生成推理框架，支持文本/图像到视频的高效生成，集成CFG并行、FP8量化等优化技术，兼容多硬件平台并提供在线体验服务。",
+        "techStack": [
+          "Python",
+          "HuggingFace",
+          "ROCm",
+          "Ascend",
+          "Cambricon"
+        ],
+        "useCase": "适用于AI数字人视频生成、图像编辑到视频转换等高性能视频合成场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-25T23:25:18.194Z",
+    "duration": "66s",
+    "version": "1.0.0"
+  }
+}
