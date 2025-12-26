@@ -1,0 +1,130 @@
+{
+  "date": "2025-12-26",
+  "since": "daily",
+  "totalRepos": 6,
+  "successCount": 6,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "rendercv/rendercv",
+      "description": "CV/resume generator for academics and engineers, YAML to PDF",
+      "language": "Python",
+      "stars": 12137,
+      "forks": 795,
+      "todayStars": 1948,
+      "url": "https://github.com/rendercv/rendercv",
+      "aiSummary": {
+        "summary": "RenderCV是一款基于YAML的学术与工程简历生成工具，自动将结构化数据转换为格式规范的PDF文档，支持高度定制化设计，解决传统简历排版难题。",
+        "techStack": [
+          "Python",
+          "YAML",
+          "PDF生成库",
+          "JSON Schema"
+        ],
+        "useCase": "适用于需要频繁更新且追求专业排版的学术研究者和工程师简历制作"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "language": "TypeScript",
+      "stars": 123584,
+      "forks": 19210,
+      "todayStars": 265,
+      "url": "https://github.com/langgenius/dify",
+      "aiSummary": {
+        "summary": "Dify是基于TypeScript的开源LLM应用开发平台，提供可视化工作流设计、RAG管道、模型管理及可观测性功能，支持多模型集成与自托管，助力从原型到生产的高效开发。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "React"
+        ],
+        "useCase": "适用于快速构建和部署基于大语言模型的智能应用及复杂工作流。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 40820,
+      "forks": 9159,
+      "todayStars": 78,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler是一款多平台自媒体数据采集工具，支持小红书、抖音、快手、B站等主流平台的评论及内容爬取。基于Playwright实现浏览器自动化，无需逆向加密算法，提供登录态缓存、IP代理池、词云生成等功能，适用于舆情监控和市场研究场景。",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js"
+        ],
+        "useCase": "适用于多平台社交媒体数据采集与分析场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "flowsurface-rs/flowsurface",
+      "description": "A native desktop charting platform for crypto markets",
+      "language": "Rust",
+      "stars": 837,
+      "forks": 137,
+      "todayStars": 143,
+      "url": "https://github.com/flowsurface-rs/flowsurface",
+      "aiSummary": {
+        "summary": "Flowsurface是一款用Rust开发的开源桌面图表工具，支持Binance、Bybit等交易所，提供多种图表类型如热力图、K线图、足迹图等，实时显示交易数据，支持多窗口、自定义主题和布局，适用于加密货币市场分析。",
+        "techStack": [
+          "Rust",
+          "WebSocket",
+          "REST API"
+        ],
+        "useCase": "适用于加密货币交易者进行实时市场数据可视化和分析。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 6413,
+      "forks": 621,
+      "todayStars": 356,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个基于Python的创新向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，实现97%存储节省的本地化RAG系统。支持在个人设备上高效处理数百万文档的语义搜索，保障数据隐私且无需云端计算。",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图算法"
+        ],
+        "useCase": "个人数据隐私保护下的高效语义搜索与知识管理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "apurvsinghgautam/robin",
+      "description": "AI-Powered Dark Web OSINT Tool",
+      "language": "Python",
+      "stars": 2997,
+      "forks": 595,
+      "todayStars": 95,
+      "url": "https://github.com/apurvsinghgautam/robin",
+      "aiSummary": {
+        "summary": "Robin是基于AI的暗网OSINT调查工具，支持模块化架构和多模型切换，可过滤暗网搜索结果并生成调查报告，适用于安全研究与合规检查场景。",
+        "techStack": [
+          "Python",
+          "Tor",
+          "Docker",
+          "LLM（OpenAI/Claude/Gemini/Ollama）"
+        ],
+        "useCase": "暗网信息收集与非法内容监测"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-26T23:24:38.517Z",
+    "duration": "43s",
+    "version": "1.0.0"
+  }
+}

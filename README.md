@@ -67,21 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-25 | **成功**: 9 | **失败**: 0
+**最后更新**: 2025-12-26 | **成功**: 6 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | Typst-based CV/resume generator for academics and ... | Python | 10.7k | 1.8k | RenderCV是一款基于Typst的学术与工程简历生成工具，通过YAML格式编写内容并转换为专业排版的PDF。支持版本控制、自动格式优化及高度定制化设计，解决传统简历模板布局问题。 |
-| 2 | [xerrors/Yuxi-Know](https://github.com/xerrors/Yuxi-Know) | 结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that i... | Python | 3.2k | 96 | 语析是基于LightRAG与知识图谱的智能体开发平台，整合RAG知识库和图谱技术，提供全套开发套件。支持多种AI工具集成，适用于知识密集型智能应用开发。 |
-| 3 | [twitter/the-algorithm](https://github.com/twitter/the-algorithm) | Source code for the X Recommendation Algorithm... | Scala | 68.8k | 303 | X平台推荐算法核心代码，包含数据处理、机器学习模型和软件框架，用于生成个性化内容动态消息。涵盖用户行为分析、社交图谱构建、内容评分等模块，支持实时推荐与批量特征计算。 |
-| 4 | [vendure-ecommerce/vendure](https://github.com/vendure-ecommerce/vendure) | The most customizable commerce platform built with... | TypeScript | 7.6k | 262 | Vendure是一个基于TypeScript的开源无头电商平台，提供高可定制化的插件架构和企业级功能。支持NestJS和GraphQL技术栈，具备API优先设计，适用于构建B2B、多供应商市场及D2C等复杂电商场景。 |
-| 5 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 6.1k | 269 | LEANN是一个基于Python的创新向量数据库，通过图-based选择性重计算和高保真剪枝技术，实现97%存储节省的本地化RAG系统。支持隐私保护的文档语义搜索，适用于个人设备上的大规模数据检索。 |
-| 6 | [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox) | SoTA open-source TTS... | Python | 17.7k | 468 | Chatterbox是Resemble AI开发的开源文本转语音（TTS）模型系列，包含高效低延迟的Turbo版、多语言支持的Multilingual版及可调参的通用版，支持零样本语音生成与情感标签，适用于语音助手、多语言内容生成等场景。 |
-| 7 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click... | TypeScript | 41.8k | 300 | Plane是一个开源项目管理平台，提供任务管理、sprints周期跟踪、模块划分、自定义视图、AI辅助文档和实时数据分析功能，旨在替代Jira等工具，简化团队协作流程。 |
-| 8 | [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) | A framework for efficient model inference with omn... | Python | 1.7k | 121 | vLLM-Omni是基于vLLM的多模态模型推理框架，支持文本、图像、视频、音频等多模态数据处理，兼容非自回归架构与多模态输出。通过KV缓存优化、流水线执行和动态资源分配实现高效推理，提供Hugging Face集成、分布式并行支持及OpenAI兼容API，简化多模态模型服务化流程。 |
-| 9 | [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) | Light Video Generation Inference Framework... | Python | 1.4k | 44 | LightX2V是轻量级视频生成推理框架，支持文本/图像到视频的高效生成，集成CFG并行、FP8量化等优化技术，兼容多硬件平台并提供在线体验服务。 |
+| 1 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, Y... | Python | 12.1k | 1.9k | RenderCV是一款基于YAML的学术与工程简历生成工具，自动将结构化数据转换为格式规范的PDF文档，支持高度定制化设计，解决传统简历排版难题。 |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow dev... | TypeScript | 123.6k | 265 | Dify是基于TypeScript的开源LLM应用开发平台，提供可视化工作流设计、RAG管道、模型管理及可观测性功能，支持多模型集成与自托管，助力从原型到生产的高效开发。 |
+| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、... | Python | 40.8k | 78 | MediaCrawler是一款多平台自媒体数据采集工具，支持小红书、抖音、快手、B站等主流平台的评论及内容爬取。基于Playwright实现浏览器自动化，无需逆向加密算法，提供登录态缓存、IP代理池、词云生成等功能，适用于舆情监控和市场研究场景。 |
+| 4 | [flowsurface-rs/flowsurface](https://github.com/flowsurface-rs/flowsurface) | A native desktop charting platform for crypto mark... | Rust | 837 | 143 | Flowsurface是一款用Rust开发的开源桌面图表工具，支持Binance、Bybit等交易所，提供多种图表类型如热力图、K线图、足迹图等，实时显示交易数据，支持多窗口、自定义主题和布局，适用于加密货币市场分析。 |
+| 5 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 6.4k | 356 | LEANN是一个基于Python的创新向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，实现97%存储节省的本地化RAG系统。支持在个人设备上高效处理数百万文档的语义搜索，保障数据隐私且无需云端计算。 |
+| 6 | [apurvsinghgautam/robin](https://github.com/apurvsinghgautam/robin) | AI-Powered Dark Web OSINT Tool... | Python | 3.0k | 95 | Robin是基于AI的暗网OSINT调查工具，支持模块化架构和多模型切换，可过滤暗网搜索结果并生成调查报告，适用于安全研究与合规检查场景。 |
 
-[查看完整数据](api/github/2025-12-25.json)
+[查看完整数据](api/github/2025-12-26.json)
 <!-- END GITHUB TRENDING -->
 
 
