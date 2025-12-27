@@ -67,18 +67,17 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-26 | **成功**: 6 | **失败**: 0
+**最后更新**: 2025-12-27 | **成功**: 5 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, Y... | Python | 12.1k | 1.9k | RenderCV是一款基于YAML的学术与工程简历生成工具，自动将结构化数据转换为格式规范的PDF文档，支持高度定制化设计，解决传统简历排版难题。 |
-| 2 | [langgenius/dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow dev... | TypeScript | 123.6k | 265 | Dify是基于TypeScript的开源LLM应用开发平台，提供可视化工作流设计、RAG管道、模型管理及可观测性功能，支持多模型集成与自托管，助力从原型到生产的高效开发。 |
-| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、... | Python | 40.8k | 78 | MediaCrawler是一款多平台自媒体数据采集工具，支持小红书、抖音、快手、B站等主流平台的评论及内容爬取。基于Playwright实现浏览器自动化，无需逆向加密算法，提供登录态缓存、IP代理池、词云生成等功能，适用于舆情监控和市场研究场景。 |
-| 4 | [flowsurface-rs/flowsurface](https://github.com/flowsurface-rs/flowsurface) | A native desktop charting platform for crypto mark... | Rust | 837 | 143 | Flowsurface是一款用Rust开发的开源桌面图表工具，支持Binance、Bybit等交易所，提供多种图表类型如热力图、K线图、足迹图等，实时显示交易数据，支持多窗口、自定义主题和布局，适用于加密货币市场分析。 |
-| 5 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 6.4k | 356 | LEANN是一个基于Python的创新向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，实现97%存储节省的本地化RAG系统。支持在个人设备上高效处理数百万文档的语义搜索，保障数据隐私且无需云端计算。 |
-| 6 | [apurvsinghgautam/robin](https://github.com/apurvsinghgautam/robin) | AI-Powered Dark Web OSINT Tool... | Python | 3.0k | 95 | Robin是基于AI的暗网OSINT调查工具，支持模块化架构和多模型切换，可过滤暗网搜索结果并生成调查报告，适用于安全研究与合规检查场景。 |
+| 1 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python... | Python | 215.5k | 127 | TheAlgorithms/Python项目收集了多种算法的Python实现，主要用于教育目的。代码旨在帮助学习和理解算法原理，但可能未优化至标准库的效率水平。 |
+| 2 | [xerrors/Yuxi-Know](https://github.com/xerrors/Yuxi-Know) | 结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that i... | Python | 3.5k | 47 | 语析是一个基于LightRAG知识库与知识图谱的智能体开发平台，整合RAG技术与图数据库实现知识推理。采用LangChain+Vue+FastAPI架构，提供PDF处理、Neo4j图谱存储及MCP工具集成，支持构建企业级智能问答系统。 |
+| 3 | [agrinman/tunnelto](https://github.com/agrinman/tunnelto) | Expose your local web server to the internet with ... | Rust | 3.7k | 565 | tunnelto 是一个用 Rust 编写的工具，通过异步 IO 和 Tokio 框架实现本地 Web 服务的公网暴露。支持自定义端口、子域名和 HTTPS，提供快速隧道建立功能，适用于开发测试和本地服务共享场景。 |
+| 4 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 84.5k | 133 | 收集了基于RAG、AI代理和多代理团队的LLM应用，整合OpenAI、Anthropic、Gemini等模型及开源模型，提供AI应用开发实践案例。 |
+| 5 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, Y... | Python | 12.6k | 615 | RenderCV是一款基于YAML的学术与工程师简历生成工具，可将结构化文本自动转换为格式规范的PDF文档。支持版本控制、自动排版、设计定制化，提供JSON Schema实现交互式填写与验证，解决传统简历模板布局问题。 |
 
-[查看完整数据](api/github/2025-12-26.json)
+[查看完整数据](api/github/2025-12-27.json)
 <!-- END GITHUB TRENDING -->
 
 

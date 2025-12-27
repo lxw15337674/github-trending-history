@@ -1,0 +1,112 @@
+{
+  "date": "2025-12-27",
+  "since": "daily",
+  "totalRepos": 5,
+  "successCount": 5,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "language": "Python",
+      "stars": 215541,
+      "forks": 49739,
+      "todayStars": 127,
+      "url": "https://github.com/TheAlgorithms/Python",
+      "aiSummary": {
+        "summary": "TheAlgorithms/Python项目收集了多种算法的Python实现，主要用于教育目的。代码旨在帮助学习和理解算法原理，但可能未优化至标准库的效率水平。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于Python算法学习与教学场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "xerrors/Yuxi-Know",
+      "description": "结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "language": "Python",
+      "stars": 3460,
+      "forks": 419,
+      "todayStars": 47,
+      "url": "https://github.com/xerrors/Yuxi-Know",
+      "aiSummary": {
+        "summary": "语析是一个基于LightRAG知识库与知识图谱的智能体开发平台，整合RAG技术与图数据库实现知识推理。采用LangChain+Vue+FastAPI架构，提供PDF处理、Neo4j图谱存储及MCP工具集成，支持构建企业级智能问答系统。",
+        "techStack": [
+          "Python",
+          "Vue.js",
+          "FastAPI",
+          "LightRAG",
+          "Neo4j"
+        ],
+        "useCase": "适用于企业知识库构建与智能客服系统开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "agrinman/tunnelto",
+      "description": "Expose your local web server to the internet with a public URL.",
+      "language": "Rust",
+      "stars": 3674,
+      "forks": 202,
+      "todayStars": 565,
+      "url": "https://github.com/agrinman/tunnelto",
+      "aiSummary": {
+        "summary": "tunnelto 是一个用 Rust 编写的工具，通过异步 IO 和 Tokio 框架实现本地 Web 服务的公网暴露。支持自定义端口、子域名和 HTTPS，提供快速隧道建立功能，适用于开发测试和本地服务共享场景。",
+        "techStack": [
+          "Rust",
+          "Tokio",
+          "async-io"
+        ],
+        "useCase": "开发人员需要临时将本地服务器暴露给外部访问时快速搭建公网隧道"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 84481,
+      "forks": 12009,
+      "todayStars": 133,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "收集了基于RAG、AI代理和多代理团队的LLM应用，整合OpenAI、Anthropic、Gemini等模型及开源模型，提供AI应用开发实践案例。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "AI Agents",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "useCase": "AI应用开发与多模型技术实验平台"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "rendercv/rendercv",
+      "description": "CV/resume generator for academics and engineers, YAML to PDF",
+      "language": "Python",
+      "stars": 12641,
+      "forks": 835,
+      "todayStars": 615,
+      "url": "https://github.com/rendercv/rendercv",
+      "aiSummary": {
+        "summary": "RenderCV是一款基于YAML的学术与工程师简历生成工具，可将结构化文本自动转换为格式规范的PDF文档。支持版本控制、自动排版、设计定制化，提供JSON Schema实现交互式填写与验证，解决传统简历模板布局问题。",
+        "techStack": [
+          "Python",
+          "YAML",
+          "PDF生成库",
+          "JSON Schema"
+        ],
+        "useCase": "学术研究者与工程师的简历自动化生成与排版工具"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-27T23:24:33.921Z",
+    "duration": "34s",
+    "version": "1.0.0"
+  }
+}
