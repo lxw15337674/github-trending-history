@@ -1,0 +1,333 @@
+{
+  "date": "2026-09-05",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 15,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 252633,
+      "forks": 21318,
+      "todayStars": 2692,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个专为工程师设计的 AI 技能集合，旨在提供真实的工程实践而非“氛围编码”。项目包含一系列小型、可组合的 Shell 脚本，支持 Claude Code 和 Codex 等编程代理。用户可通过 NPM 安装，选择订阅或本地可编辑模式，通过 `/setup-matt-pocock-skills` 命令在项目中运行，以提升开发效率和代码质量。",
+        "summary_en": "A collection of composable agent skills for real engineering workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Node.js",
+          "AI Agent"
+        ],
+        "useCase": "适用于使用 Claude Code 或 Codex 等编程代理的工程师，用于自动化开发流程、代码生成和项目设置。",
+        "useCase_en": "Install these skills into coding agents to streamline engineering workflows."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 249894,
+      "forks": 37613,
+      "todayStars": 1314,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个面向 Claude Code、Cursor 等 AI 代理的性能优化系统。它提供技能、记忆、安全及研究优先的开发工具，帮助代理在构建前规划、验证更改、审查工作并记忆重要信息，将重复性任务转化为可重用技能。",
+        "summary_en": "A performance optimization system for AI coding agents, providing skills, memory, and security tools.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "为 AI 编程代理提供工程协调系统与工具箱，提升开发效率与代码质量。",
+        "useCase_en": "To provide a coordinated engineering system and toolbox for AI coding assistants like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 127939,
+      "forks": 6846,
+      "todayStars": 2845,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 技能，旨在让 AI 代理像最懒的资深开发者一样思考。它通过优先使用原生浏览器 API 而非重型库，显著减少了代码量（平均减少 54%）、成本和时间。它强调 YAGNI 原则，确保生成的代码简洁、高效且 100% 安全。",
+        "summary_en": "A JavaScript library that optimizes AI code generation by enforcing minimalism and YAGNI principles, reducing code size and cost.",
+        "techStack": [
+          "JavaScript",
+          "AI Agent"
+        ],
+        "useCase": "适用于希望 AI 代理生成更少代码、避免过度工程化并降低开发成本和时间的场景。",
+        "useCase_en": "To optimize AI code generation by enforcing minimalism and YAGNI principles, reducing boilerplate and cost."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 242004,
+      "forks": 49722,
+      "todayStars": 575,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 4,
+      "fullName": "fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "stars": 25570,
+      "forks": 3043,
+      "todayStars": 134,
+      "url": "https://github.com/fmtlib/fmt",
+      "aiSummary": {
+        "summary": "这是一个现代的 C++ 格式化库，提供比 C stdio 和 C++ iostreams 更快更安全的替代方案。它实现了 C++20 std::format 和 C++23 std::print，支持类似 Python 的格式化语法，具有高性能、类型安全、轻量级和跨平台等特点。",
+        "summary_en": "A modern C++ formatting library offering fast, safe, and type-safe string formatting with C++20/23 support.",
+        "techStack": [
+          "C++",
+          "C++20",
+          "C++23"
+        ],
+        "useCase": "适用于高性能字符串格式化、日志记录及数据序列化场景。",
+        "useCase_en": "Developers use this library to replace slow iostreams with fast, type-safe string formatting."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 174563,
+      "forks": 20675,
+      "todayStars": 475,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 为 Claude 模型提供的 Agent Skills 公共仓库，包含一系列用于演示特定任务自动化与能力增强的文件夹。每个技能由指令、脚本和资源组成，涵盖创意、技术和企业工作流，旨在帮助 Claude 动态加载并优化复杂任务的处理。",
+        "summary_en": "Anthropic's public repository for Claude Agent Skills, featuring modular folders of instructions and scripts for dynamic task execution.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 Claude 模型提供特定任务的自动化执行与能力增强",
+        "useCase_en": "To provide Claude with modular, reusable capabilities for specialized tasks like document creation, data analysis, and a"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 31687,
+      "forks": 2041,
+      "todayStars": 855,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 等工具设计的 39 种编辑类图表生成技能。项目提供自包含的 HTML + SVG 输出，支持多种布局语法（如 Sankey、鱼骨图）。强调编辑类设计质量，无 Figma 依赖，支持静态输出和可选动画，并能转换 draw.io 或 Mermaid 源码。旨在提供高质量、品牌一致的图表。",
+        "summary_en": "A library of 39 editorial diagram types for AI coding assistants, built with self-contained HTML and SVG.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "适用于 Claude Code 用户及内容创作者，用于生成高质量、品牌一致的编辑类图表。",
+        "useCase_en": "To generate high-quality, branded diagrams for technical documentation without external tools."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 204674,
+      "forks": 26703,
+      "todayStars": 725,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "OpenCode 是一个开源的 AI 编码代理，基于 TypeScript 开发。它提供命令行工具和桌面应用（Beta），支持多种安装方式，旨在帮助开发者利用 AI 辅助编程，提升开发效率。",
+        "summary_en": "Open-source AI coding agent supporting CLI and desktop applications.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "辅助开发者进行代码编写和编程任务，提升开发效率。",
+        "useCase_en": "Automate software development tasks using AI."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 70692,
+      "forks": 8415,
+      "todayStars": 136,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个智能多代理元框架，为 Claude Code 和 Codex 提供执行层。它通过提供工具、内存和协调机制，支持 100+ 专用代理和自学习架构。项目支持跨机器的联邦通信和自适应记忆，帮助企业构建协作式 AI 系统，通过 npx 即可快速初始化。",
+        "summary_en": "Ruflo is a meta-harness for Claude Code that orchestrates multi-player swarms and autonomous workflows with self-learning capabilities.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "构建协作式 AI 系统，部署智能多代理群集及自动化工作流。",
+        "useCase_en": "Deploy intelligent multi-player swarms and coordinate autonomous workflows for conversational AI systems."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 2701,
+      "forks": 75,
+      "todayStars": 442,
+      "url": "https://github.com/humanlayer/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的技能集合，包含多个实用工具。它可以帮助改进 CLAUDE.md 文件以提高指令遵循度，优化 React 组件的 prop 类型定义，以及构建迭代式代理循环和控制系统。此外，还提供可视化解释工具，提升 AI 编码助手的工作效率。",
+        "summary_en": "A collection of reusable skills for Claude Code to improve coding workflows.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要优化 Claude Code 配置、改进项目文档结构、规范 React 类型定义及构建自动化代理工作流的开发者。",
+        "useCase_en": "Enhance Claude Code workflows by installing utilities for documentation, type safety, and agent automation."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 43479,
+      "forks": 3645,
+      "todayStars": 990,
+      "url": "https://github.com/blader/humanizer",
+      "aiSummary": {
+        "summary": "这是一个 Python Agent 技能，旨在移除 AI 生成文本的痕迹。它利用 35 种模式重写文本，使其听起来像人类写作，同时保留事实、引用和代码。支持 Markdown，并允许用户通过提供样本匹配特定写作风格。",
+        "summary_en": "Python agent skill that rewrites AI-generated text to sound more human.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Agent Skills"
+        ],
+        "useCase": "用于去除 AI 生成文本的痕迹，使其读起来像人类写作。",
+        "useCase_en": "Rewrite AI-generated text to sound natural and human-like while preserving factual details."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "BraveOPotato/FckSignups",
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+      "language": "TypeScript",
+      "stars": 2893,
+      "forks": 198,
+      "todayStars": 68,
+      "url": "https://github.com/BraveOPotato/FckSignups",
+      "aiSummary": {
+        "summary": "NoSignups（原名 FckSignups）是一个基于 React 和 TypeScript 构建的开源项目，旨在收集无需注册、无需追踪的浏览器工具。它强调用户数据隐私和工具的即时可用性，提供生产力、设计等多个类别的精选工具列表，鼓励社区贡献。",
+        "summary_en": "A curated collection of open-source, in-browser tools that require no signups or accounts.",
+        "techStack": [
+          "React",
+          "TypeScript"
+        ],
+        "useCase": "适合需要快速使用在线工具且注重隐私、反感强制注册墙的用户。",
+        "useCase_en": "A centralized directory for finding open-source web tools that function without forced registration or tracking."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "WorldFlowAI/everything-claude-code",
+      "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
+      "language": "JavaScript",
+      "stars": 2354,
+      "forks": 362,
+      "todayStars": 95,
+      "url": "https://github.com/WorldFlowAI/everything-claude-code",
+      "aiSummary": {
+        "summary": "这是一个 Anthropic hackathon 获胜者开发的生产级 Claude Code 工具包。集成了代理、技能、钩子、命令和规则，涵盖 Token 优化、记忆持久化、持续学习及并行化等高级功能。支持跨平台及多种包管理器，旨在提升 AI 辅助开发的效率与智能化水平。",
+        "summary_en": "Production-ready Claude Code plugin featuring agents, skills, hooks, and MCP configurations for optimized AI-assisted development.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Claude Code"
+        ],
+        "useCase": "高效的 AI 辅助软件开发与自动化工作流构建",
+        "useCase_en": "Enhance Claude Code productivity by utilizing pre-configured agents, hooks, and MCP tools for complex development tasks."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "stars": 3200,
+      "forks": 230,
+      "todayStars": 674,
+      "url": "https://github.com/magnitudedev/magnitude",
+      "aiSummary": {
+        "summary": "Magnitude 是一个开源的本地推理服务器，旨在为你的硬件运行最佳模型。它支持与多种 AI 代理（如 Claude Code, Pi 等）集成。通过分析硬件配置，它能自动推荐、下载并调优适合的本地模型，实现免费、私有且离线的 AI 推理体验。",
+        "summary_en": "Open source inference server that runs local AI models on your hardware for free and offline.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "为本地 AI 代理提供免费、私有且离线的模型推理服务。",
+        "useCase_en": "To run local AI models privately and offline for your existing AI agents."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "language": "Python",
+      "stars": 4706,
+      "forks": 1253,
+      "todayStars": 230,
+      "url": "https://github.com/bikini/exploitarium",
+      "aiSummary": {
+        "summary": "该项目是一个公开漏洞利用 PoC 和漏洞研究文章的归档库，主要使用 Python 开发。作者分享了多年的模糊测试研究成果，部分由 AI 辅助生成，但核心 PoC 均为人工编写。项目旨在促进安全研究教育，并承诺将扩展 PoC 以适应更多环境。",
+        "summary_en": "A collection of public exploit proof-of-concepts and vulnerability research writeups focused on fuzzing methodology.",
+        "techStack": [
+          "Python",
+          "Fuzzing",
+          "AI"
+        ],
+        "useCase": "适用于安全研究人员学习漏洞利用技术、研究模糊测试方法或查找特定漏洞的 PoC。",
+        "useCase_en": "Security researchers use this archive to study vulnerability exploitation techniques and fuzzing methodologies."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. $nvm: 3ArcxqLtXMmBnWbbtfwQgVL3MNnDsggzgGDtXMnjpump",
+      "language": "Shell",
+      "stars": 94918,
+      "forks": 10424,
+      "todayStars": 22,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm 是一个用于管理 Node.js 版本的命令行工具。它允许用户在 POSIX 兼容的 shell（如 bash、zsh）中快速安装、切换和管理多个 Node.js 版本。支持跨平台（Linux、macOS、WSL），提供离线安装、Shell 集成及 Docker 支持，是前端开发中管理 Node 版本的标准工具。",
+        "summary_en": "A POSIX-compliant shell script to manage multiple active Node.js versions.",
+        "techStack": [
+          "Shell",
+          "Bash",
+          "Node.js"
+        ],
+        "useCase": "前端开发人员在不同 Node.js 版本间切换及环境管理。",
+        "useCase_en": "To manage multiple Node.js versions on POSIX-compliant systems."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T00:52:36.560Z",
+    "duration": "487s",
+    "version": "1.0.0"
+  }
+}
