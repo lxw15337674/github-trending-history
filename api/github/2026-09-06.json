@@ -1,0 +1,400 @@
+{
+  "date": "2026-09-06",
+  "since": "daily",
+  "totalRepos": 18,
+  "successCount": 18,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 251317,
+      "forks": 37784,
+      "todayStars": 1485,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个针对 Claude Code、Cursor 等 AI 编程代理的性能优化与工程化系统。它为代理提供技能、直觉、记忆、安全机制及研究优先的开发能力，帮助代理在构建前规划、验证测试、自我审查，并将重复性工作转化为可复用的技能。",
+        "summary_en": "An agent harness optimization system for AI coding assistants like Claude Code, providing skills and memory.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "用于提升 AI 编程代理的工程化水平，提供完整的开发工具链与协作能力。",
+        "useCase_en": "To enhance AI coding agents with a coordinated engineering system, memory, and security tools."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 254551,
+      "forks": 21468,
+      "todayStars": 2207,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为工程师设计的实用技能集合，旨在通过可组合的小型脚本辅助真实的工程实践。它支持 Claude Code 和 Codex 等多种 AI 编码助手，用户可通过简单的命令安装并运行 `/setup-matt-pocock-skills` 来配置项目，享受基于多年工程经验的自动化工作流。",
+        "summary_en": "A collection of engineering skills for AI agents like Claude Code.",
+        "techStack": [
+          "Shell",
+          "JavaScript",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "适用于使用 AI 编码助手（如 Claude Code 或 Codex）的开发者，用于配置自动化工程工作流和提升开发效率。",
+        "useCase_en": "To install engineering skills for AI coding agents like Claude Code."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 32361,
+      "forks": 2078,
+      "todayStars": 620,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 等工具提供 39 种高质量编辑类图表的 HTML/SVG 库。它支持多种布局（如 Sankey、鱼骨图），强调语义模式和静态输出，无需 Figma 即可生成符合品牌风格的架构图和流程图。",
+        "summary_en": "A self-contained HTML/SVG library of 39 editorial diagram types for AI coding assistants, featuring semantic patterns and static output.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "适用于技术文档撰写、架构设计草图绘制及 AI 辅助编程场景，用于生成高质量、符合品牌风格的图表。",
+        "useCase_en": "To provide AI coding assistants with a library of 39 high-quality, editorial-style diagram types."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 242546,
+      "forks": 49886,
+      "todayStars": 520,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes Agent 是一个由 Nous Research 开发的自我改进 AI 代理，具备内置学习循环。它能从经验中创建技能，跨会话记忆用户信息，支持多平台（Telegram、Discord 等）交互。它拥有强大的终端界面，支持并行子代理处理复杂任务，且不绑定特定模型，可在云端或本地灵活部署。",
+        "summary_en": "A self-improving AI agent featuring a built-in learning loop, multi-platform support, and flexible cloud deployment.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "OpenAI/OpenRouter",
+          "Modal",
+          "FTS5"
+        ],
+        "useCase": "适合需要长期记忆、自我进化及多平台自动化的智能个人助理或自动化工作流管理。",
+        "useCase_en": "Automate workflows and manage communications across various platforms using a self-improving AI agent."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 25616,
+      "forks": 1731,
+      "todayStars": 46,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目已弃用，旨在为 Codex 提供技能目录。它包含 AI 代理可用的指令、脚本和资源，帮助团队以可重复的方式完成任务。用户可通过命令行安装技能，支持自定义技能创建与分发，并遵循各技能目录内的许可证。",
+        "summary_en": "A deprecated repository cataloging reusable skills for the Codex AI agent.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 Codex AI 代理提供可复用、可分发的技能资源库。",
+        "useCase_en": "To catalog reusable skills and instructions for the Codex AI agent."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 205259,
+      "forks": 26775,
+      "todayStars": 551,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "OpenCode 是一个开源的 AI 编码代理，使用 TypeScript 构建。它提供命令行工具和桌面应用程序，旨在帮助用户通过 AI 辅助进行代码编写和开发任务。支持多平台安装，包括 macOS、Windows 和 Linux。",
+        "summary_en": "An open-source AI coding agent providing CLI and desktop tools for developers.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "AI 辅助编程与代码生成",
+        "useCase_en": "An AI-powered coding agent to assist developers in writing and managing code."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 44238,
+      "forks": 3680,
+      "todayStars": 748,
+      "url": "https://github.com/blader/humanizer",
+      "aiSummary": {
+        "summary": "Humanizer 是一个 Python Agent 技能，用于将 AI 生成的文本重写为更自然、类人的风格。它通过移除统计算法导致的机械感，保留原意，并支持通过示例匹配特定写作声音。适用于 Claude 等智能体平台。",
+        "summary_en": "Python agent skill that rewrites AI-generated text to sound human-like without changing meaning.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Skills CLI",
+          "Claude Code"
+        ],
+        "useCase": "用于 Claude 等智能体生成自然、类人的文本，去除 AI 生成痕迹。",
+        "useCase_en": "To rewrite AI-generated text to sound natural and human-like while preserving the original meaning."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "llvm/llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "language": "LLVM",
+      "stars": 40212,
+      "forks": 18561,
+      "todayStars": 23,
+      "url": "https://github.com/llvm/llvm-project",
+      "aiSummary": {
+        "summary": "LLVM 是一个模块化且可重用的编译器和工具链技术集合。核心组件包括处理中间表示的 LLVM、支持 C/C++/Objective-C 的 Clang 前端，以及 libc++ 标准库和 LLD 链接器。该项目旨在构建高度优化的编译器、优化器和运行时环境。",
+        "summary_en": "A modular toolkit for building compilers, optimizers, and run-time environments.",
+        "techStack": [
+          "LLVM",
+          "C++",
+          "Clang",
+          "libc++",
+          "LLD"
+        ],
+        "useCase": "构建高性能编译器、开发系统级软件及进行底层代码优化",
+        "useCase_en": "Used to construct highly optimized compilers, optimizers, and run-time environments."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 129353,
+      "forks": 6929,
+      "todayStars": 1539,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个旨在让 AI 代理模仿‘懒惰资深开发者’行为的工具。它通过提示工程，强制 AI 使用最简单的原生代码替代复杂的第三方库，从而在保证 100% 安全的前提下，显著减少代码量（约 54%）、降低成本并提升执行速度。适用于优化 AI 编码助手效率的场景。",
+        "summary_en": "A JavaScript skill for AI agents that enforces minimalism to generate safe, efficient code.",
+        "techStack": [
+          "JavaScript",
+          "AI/LLM",
+          "Prompt Engineering"
+        ],
+        "useCase": "优化 AI 编码助手，生成更简洁、高效且低成本的代码。",
+        "useCase_en": "To optimize AI coding sessions by enforcing minimalism, reducing code volume and execution time while maintaining safety"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 70978,
+      "forks": 8436,
+      "todayStars": 276,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个智能代理元启动器，为 Claude Code 和 Codex 提供执行层。它支持 100+ 专用代理、协调群集、自适应记忆和自学习智能。通过 npx 安装，用户只需正常编写代码，Ruflo 即可处理后台协调、RAG 集成和跨机器联邦通信，构建协作式 AI 系统。",
+        "summary_en": "An AI agent orchestration harness for Claude Code and Codex featuring self-learning memory and federated swarms.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "MCP",
+          "LLM Providers"
+        ],
+        "useCase": "部署智能多代理群集，协调自主工作流，构建协作式 AI 系统",
+        "useCase_en": "To orchestrate autonomous AI agents and swarms for complex coding tasks."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "stars": 3667,
+      "forks": 260,
+      "todayStars": 604,
+      "url": "https://github.com/magnitudedev/magnitude",
+      "aiSummary": {
+        "summary": "Magnitude 是一个开源的本地推理服务器，旨在为你的硬件运行最佳模型。它通过 CLI 工具分析硬件配置，推荐并下载合适的本地大模型，支持离线、私密运行，并能无缝连接到 Claude Code、Cline 等 AI 代理，实现零成本、高效率的本地 AI 开发体验。",
+        "summary_en": "Open-source inference server that runs local AI models on your hardware for free and privately.",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "LLM Inference"
+        ],
+        "useCase": "为 AI 代理提供本地、私密且免费的模型推理服务。",
+        "useCase_en": "Run local AI models on your hardware for free and privately, optimized for AI agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "BraveOPotato/FckSignups",
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+      "language": "TypeScript",
+      "stars": 3313,
+      "forks": 210,
+      "todayStars": 436,
+      "url": "https://github.com/BraveOPotato/FckSignups",
+      "aiSummary": {
+        "summary": "这是一个名为 FckSignups 的开源项目，旨在收集无需注册即可直接在浏览器使用的工具。项目采用 React + TypeScript 开发，强调隐私保护和开源精神。它提供了一个分类明确的工具目录，帮助用户快速找到无需账号、无追踪、立即可用的实用工具，拒绝强制注册墙和数据收割。",
+        "summary_en": "A curated collection of open-source, in-browser tools requiring no signups or accounts.",
+        "techStack": [
+          "React",
+          "TypeScript"
+        ],
+        "useCase": "寻找无需注册即可直接使用的在线工具的用户。",
+        "useCase_en": "Find and use privacy-focused, open-source tools instantly without creating accounts or providing emails."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars": 47514,
+      "forks": 7388,
+      "todayStars": 329,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 和 AI 代理提供的营销技能集合，专注于 CRO、文案、SEO、分析和增长工程。旨在帮助技术营销人员和创始人利用 AI 编码代理优化转化率、撰写文案和制定增长策略，支持多种 AI 编辑器。",
+        "summary_en": "A collection of AI agent skills for marketing tasks like CRO, copywriting, SEO, and growth engineering.",
+        "techStack": [
+          "JavaScript",
+          "Agent Skills",
+          "Claude Code"
+        ],
+        "useCase": "技术营销人员和创始人利用 AI 代理进行转化率优化、文案撰写及 SEO 工作。",
+        "useCase_en": "To enable AI coding agents to perform marketing tasks like CRO, copywriting, and SEO for technical marketers."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "aipoch/open-science",
+      "description": "Open Science by AIPOCH is an open-source, local-first, model-agnostic AI research workbench for macOS, Windows, and Linux, with scientific agents, Python/R notebooks, data connectors, and reproducible provenance.",
+      "language": "TypeScript",
+      "stars": 3855,
+      "forks": 238,
+      "todayStars": 146,
+      "url": "https://github.com/aipoch/open-science",
+      "aiSummary": {
+        "summary": "Open Science 是一个开源、本地优先的 AI 研究工作台，支持 macOS、Windows 和 Linux。它集成了科学 AI 代理、Python/R 代码本和数据连接器，允许用户通过自然语言描述目标，让代理自动执行文献综述、代码运行和数据分析，生成可追溯的研究报告。适用于机器学习、生命科学等多个领域的计算密集型研究，旨在实现可复现的科学探索。",
+        "summary_en": "Local-first AI research workbench enabling reproducible science with scientific agents and notebooks.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "R"
+        ],
+        "useCase": "适用于需要本地化、可复现且跨学科的科学研究和数据分析工作。",
+        "useCase_en": "Researchers use this to run code and analyze data locally with AI agents to ensure reproducibility."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "OpenWhispr/openwhispr",
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "language": "JavaScript",
+      "stars": 7361,
+      "forks": 930,
+      "todayStars": 121,
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "aiSummary": {
+        "summary": "OpenWhispr 是一款开源的跨平台语音转文字应用，支持本地（Whisper/Parakeet）和云端（BYOK）模型。它提供全局热键听写、翻译、AI 代理对话及会议转录功能。注重隐私，无数据收集，是 WisprFlow 和 Granola 的替代品。",
+        "summary_en": "Privacy-first voice-to-text dictation app supporting local and cloud AI models.",
+        "techStack": [
+          "JavaScript",
+          "Whisper",
+          "NVIDIA Parakeet",
+          "ONNX Runtime",
+          "AI Models (GPT-5, Claude, etc.)"
+        ],
+        "useCase": "适合注重隐私、需要跨平台语音输入、会议转录及 AI 助手交互的用户。",
+        "useCase_en": "Dictate text into any application or transcribe meetings using local or cloud AI models."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "humanlayer/skills",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 3137,
+      "forks": 91,
+      "todayStars": 451,
+      "url": "https://github.com/humanlayer/skills",
+      "aiSummary": {
+        "summary": "这是一个 HumanLayer 提供的 Claude Code 技能集合。包含多个实用技能，如重写 CLAUDE.md 以提高指令遵循度、缩小 React prop 类型、构建迭代代理循环、设计控制循环以及解释代码主题。通过 npx 安装，旨在提升 Claude 在代码编写和项目理解方面的能力。",
+        "summary_en": "A collection of reusable skills for Claude Code to enhance documentation, type safety, and build agentic workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Claude Code",
+          "GitHub Actions"
+        ],
+        "useCase": "适用于需要优化 Claude 指令、改进 React 类型定义、构建自动化代理工作流或可视化代码逻辑的开发者。",
+        "useCase_en": "To provide reusable skills for Claude Code to improve documentation, refine React types, and automate coding workflows."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "language": "Python",
+      "stars": 4714,
+      "forks": 775,
+      "todayStars": 142,
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "aiSummary": {
+        "summary": "AutoHedge 是一个基于 Python 的企业级自主代理对冲基金，利用群智能和 AI 代理自动化交易。它采用多代理架构（包括策略生成、量化分析、风险管理和执行代理），支持 Solana 上的全自主交易，具备实时市场分析、风险优先设计和结构化输出功能，旨在提供机构级的可靠性和可扩展性。",
+        "summary_en": "Enterprise-grade autonomous hedge fund using swarm intelligence and AI agents for automated trading on Solana.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "Anthropic API",
+          "Jupiter API",
+          "Solana"
+        ],
+        "useCase": "Solana 加密货币的自动化算法交易",
+        "useCase_en": "Automate market analysis, risk management, and trade execution using AI agents for autonomous trading."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "stars": 13473,
+      "forks": 1547,
+      "todayStars": 122,
+      "url": "https://github.com/Stremio/stremio-web",
+      "aiSummary": {
+        "summary": "Stremio 是一个插件驱动的流媒体平台，提供电影、剧集和频道发现。前端采用 React 构建，后端由 Rust 编译的 WebAssembly 驱动。支持跨设备同步、Chromecast 投屏、键盘控制播放器及多语言界面。这是一个独立的 PWA 应用，旨在实现自由流媒体体验。",
+        "summary_en": "Stremio is a cross-platform streaming client that aggregates content from various addons via a React UI and Rust WebAssembly core.",
+        "techStack": [
+          "JavaScript",
+          "React",
+          "Rust",
+          "WebAssembly (WASM)",
+          "Web Worker"
+        ],
+        "useCase": "构建跨平台的流媒体媒体发现与管理应用",
+        "useCase_en": "Discover and stream movies, series, and channels using a modular addon system."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-07T00:55:43.644Z",
+    "duration": "464s",
+    "version": "1.0.0"
+  }
+}
